@@ -18,6 +18,11 @@ WHITESPACE = string.whitespace
 
 
 def clean_word(word):
+    # check if not None
+    if word is None:
+        return None
+    # remove leading and trailing spaces
+    word = word.strip()
     # remove digits
     word = word.strip(DIGITS)
     # remove punctuation
@@ -27,7 +32,6 @@ def clean_word(word):
     # remove empty strings
     if word != "":
         return word
-    return None
 
 
 def get_word_frequency(word_list):
@@ -49,6 +53,14 @@ CONCAT_AS_ONE_FILE = os.path.join(CURRENT_DIR, "concat_as_one_file")
 WORDCLOUDS = os.path.join(CURRENT_DIR, "wordclouds")
 WORD_FREQUENCIES = os.path.join(CURRENT_DIR, "word_frequencies")
 
+# check if above directories exist, if not create them
+if not os.path.exists(WORDCLOUDS):
+    os.mkdir(WORDCLOUDS)
+if not os.path.exists(WORD_FREQUENCIES):
+    os.mkdir(WORD_FREQUENCIES)
+if not os.path.exists(CONCAT_AS_ONE_FILE):
+    os.mkdir(CONCAT_AS_ONE_FILE)
+
 
 def main():
     if os.path.exists(CONCAT_AS_ONE_FILE):
@@ -67,10 +79,6 @@ def main():
 
                     as_json = get_word_frequency(poem)
 
-                    # make sure word_frequencies directory exists, if not create it
-                    if not os.path.exists(WORD_FREQUENCIES):
-                        os.mkdir(WORD_FREQUENCIES)
-
                     with open(
                         f"{WORD_FREQUENCIES}/{file}.json", "w", encoding="utf-8"
                     ) as wf:
@@ -86,7 +94,7 @@ def main():
                     os.mkdir(poet_dir)
 
                     # All words including one letter words
-                    poem = [word for word in poem]
+                    poem = [word for word in poem if word is not None]
                     for i in range(1, 6):
                         generate_wordcloud(
                             poem, filename=f"{poet_dir}/wordcloud_{i}.png"

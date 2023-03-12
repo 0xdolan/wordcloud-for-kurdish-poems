@@ -1,19 +1,30 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import os
 
 import matplotlib
 import matplotlib.pyplot as plt
+from rich import print as rprint
 from wordcloud import WordCloud
 
 matplotlib.use("Agg")
 
-VAZIR_FONT_PATH = "https://github.com/rastikerdar/vazirmatn/blob/master/fonts/ttf/Vazirmatn-Regular.ttf?raw=true"
+GITHUB_FONT_PATH = "https://github.com/rastikerdar/vazirmatn/blob/master/fonts/ttf/Vazirmatn-Regular.ttf?raw=true"
+
+# if font directory is not exist, create it and download the font file from github
+if not os.path.exists("fonts"):
+    os.mkdir("fonts")
+    rprint("Downloading Vazirmatn-Regular.ttf from github...")
+    os.system(f"wget -O ./fonts/Vazirmatn-Regular.ttf {GITHUB_FONT_PATH}")
+
+
+VAZIRMATN_FONT_PATH = os.path.join(os.getcwd(), "fonts/Vazirmatn-Regular.ttf")
 
 
 def generate_wordcloud(wordlist, filename="wordcloud.png"):
     wc = WordCloud(
-        font_path=VAZIR_FONT_PATH,
+        font_path=VAZIRMATN_FONT_PATH,
         width=1600,
         height=800,
         background_color="white",
