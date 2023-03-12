@@ -40,7 +40,7 @@ def extract_poem(poem):
     if not os.path.exists(CONCAT_AS_ONE_FILE):
         os.mkdir(CONCAT_AS_ONE_FILE)
     for poet in poets:
-        for path in track(poem_full_paths, description="Reading poems..."):
+        for path in track(poem_full_paths, description=f"Reading {poet}s' poems..."):
             base_name = os.path.basename(path)
             if poet == base_name:
                 for file_path in get_all_files(path):
