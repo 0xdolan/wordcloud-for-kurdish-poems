@@ -47,9 +47,7 @@ def extract_poem(poem):
                     if file_path.endswith(".html"):
                         continue
                     with open(file_path, "r", encoding="utf-8") as rf, open(
-                        f"{CURRENT_DIR}/CONCAT_AS_ONE_FILE/{base_name}",
-                        "a",
-                        encoding="utf-8",
+                        f"{CONCAT_AS_ONE_FILE}/{base_name}", "a", encoding="utf-8"
                     ) as wf:
                         for line in rf:
                             if any(
