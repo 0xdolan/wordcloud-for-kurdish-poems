@@ -30,7 +30,7 @@ rprint(f"Read {len(poem_full_paths)} poems directories from {poem_dirs[6]}")
 def get_all_files(directory):
     file_list = []
     for root, dirs, files in os.walk(directory):
-        for filename in track(files, description="Getting all files..."):
+        for filename in files:
             filepath = os.path.join(root, filename)
             file_list.append(filepath)
     return file_list
