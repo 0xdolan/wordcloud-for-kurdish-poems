@@ -12,8 +12,8 @@ from rich.progress import track
 from generate_wordcloud import generate_wordcloud
 
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-PUNCTUATION = string.punctuation
-DIGITS = string.digits
+PUNCTUATION = string.punctuation + "،؛؟«»"
+DIGITS = string.digits + "۰۱۲۳۴۵۶۷۸۹" + "٠١٢٣٤٥٦٧٨٩"
 WHITESPACE = string.whitespace
 
 
@@ -30,19 +30,20 @@ def clean_word(word):
     # remove newlines
     word = word.strip(WHITESPACE)
     # remove empty strings
-    if word != "":
-        return word
+
+    return word
 
 
-def get_word_frequency(word_list):
+def get_word_frequency(wordlist):
     # Count the frequency of each word
-    word_counts = Counter(word_list)
+    word_counts = Counter(wordlist)
 
     # Create a list of dictionaries containing the word and its frequency
     word_frequency_list = []
     for entry, frequency in word_counts.items():
         entry = clean_word(entry)
-        word_frequency_list.append({"entry": entry, "frequency": frequency})
+        if entry is not None and len(entry) >= 1:
+            word_frequency_list.append({"entry": entry, "frequency": frequency})
 
     # sort by frequency
     word_frequency_list.sort(key=lambda x: x["frequency"], reverse=True)
@@ -62,7 +63,7 @@ if not os.path.exists(CONCAT_AS_ONE_FILE):
     os.mkdir(CONCAT_AS_ONE_FILE)
 
 
-def main():
+def generate_frequencies():
     if os.path.exists(CONCAT_AS_ONE_FILE):
         # read all files inside CONCAT_AS_ONE_FILE directory
         for root, dirs, files in track(
@@ -75,7 +76,7 @@ def main():
                     poem = rf.read().split()
 
                     # clear words
-                    poem = [clean_word(word) for word in poem]
+                    poem = [clean_word(word) for word in poem if word is not None]
 
                     as_json = get_word_frequency(poem)
 
@@ -83,9 +84,22 @@ def main():
                         f"{WORD_FREQUENCIES}/{file}.json", "w", encoding="utf-8"
                     ) as wf:
                         json.dump(
-                            as_json, wf, indent=4, ensure_ascii=False, default=str
+                            as_json,
+                            wf,
+                            indent=4,
+                            ensure_ascii=False,
+                            default=str,
+                            allow_nan=False,
                         )
 
+
+def generate_wordclouds():
+    if os.path.exists(CONCAT_AS_ONE_FILE):
+        # read all files inside CONCAT_AS_ONE_FILE directory
+        for root, dirs, files in track(
+            os.walk(CONCAT_AS_ONE_FILE), description="Reading files..."
+        ):
+            for file in files:
                 rprint(f"working on WordCloud for {file}")
                 poet_dir = f"{WORDCLOUDS}/{file}"
 
@@ -123,5 +137,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    generate_frequencies()
+    generate_wordclouds()
     rprint("DONE")

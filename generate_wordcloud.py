@@ -22,14 +22,14 @@ if not os.path.exists("fonts"):
 VAZIRMATN_FONT_PATH = os.path.join(os.getcwd(), "fonts/Vazirmatn-Regular.ttf")
 
 
-def generate_wordcloud(wordlist, filename="wordcloud.png"):
+def generate_wordcloud(text, filename="wordcloud.png"):
     wc = WordCloud(
         font_path=VAZIRMATN_FONT_PATH,
         width=1600,
         height=800,
         background_color="white",
     )
-    wc.generate(" ".join(wordlist))
+    wc.generate(text)
 
     plt.axis("off")
     plt.figure(figsize=(20, 10))
