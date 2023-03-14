@@ -6,7 +6,6 @@ import os
 import string
 from collections import Counter
 
-from genericpath import isfile
 from rich import print as rprint
 from rich.progress import track
 
@@ -109,12 +108,6 @@ def generate_frequencies():
 
 def generate_wordclouds():
     if os.path.exists(CONCAT_AS_ONE_FILE):
-        with open(os.path.join(root, file), "r", encoding="utf-8") as rf:
-            poem = rf.read().split()
-
-        # clear words
-        poem = [clean_word(word) for word in poem if word is not None]
-
         # read all files inside CONCAT_AS_ONE_FILE directory
         for root, dirs, files in track(
             os.walk(CONCAT_AS_ONE_FILE), description="Reading files..."
@@ -122,6 +115,12 @@ def generate_wordclouds():
             for file in files:
                 rprint(f"working on WordCloud for {file}")
                 poet_dir = f"{WORDCLOUDS}/{file}"
+
+                with open(os.path.join(root, file), "r", encoding="utf-8") as rf:
+                    poem = rf.read().split()
+
+                # clear words
+                poem = [clean_word(word) for word in poem if word is not None]
 
                 # make sure wordclouds directory exists, if not create it
                 if not os.path.exists(poet_dir):

@@ -12,14 +12,17 @@ matplotlib.use("Agg")
 
 GITHUB_FONT_PATH = "https://github.com/rastikerdar/vazirmatn/blob/master/fonts/ttf/Vazirmatn-Regular.ttf?raw=true"
 
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+FONT_DIR = os.path.join(CURRENT_DIR, "allekok/fonts")
+
 # if font directory is not exist, create it and download the font file from github
-if not os.path.exists("fonts"):
-    os.mkdir("fonts")
+if not os.path.exists(FONT_DIR):
+    os.mkdir(FONT_DIR)
     rprint("Downloading Vazirmatn-Regular.ttf from github...")
-    os.system(f"wget -q -O ./fonts/Vazirmatn-Regular.ttf {GITHUB_FONT_PATH}")
+    os.system(f"wget -q -O {FONT_DIR}/Vazirmatn-Regular.ttf {GITHUB_FONT_PATH}")
 
 
-VAZIRMATN_FONT_PATH = os.path.join(os.getcwd(), "fonts/Vazirmatn-Regular.ttf")
+VAZIRMATN_FONT_PATH = os.path.join(CURRENT_DIR, f"{FONT_DIR}/Vazirmatn-Regular.ttf")
 
 
 def generate_wordcloud(text, filename="wordcloud.png"):

@@ -8,8 +8,9 @@ from rich import print as rprint
 from rich.progress import track
 
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-ALLEKOK_DIR = os.path.join(CURRENT_DIR, "allekok-poems")
-CONCAT_AS_ONE_FILE = os.path.join(CURRENT_DIR, "concat_as_one_file")
+ALLEKOK = os.path.join(CURRENT_DIR, "allekok")
+ALLEKOK_DIR = os.path.join(ALLEKOK, "allekok-poems")
+CONCAT_AS_ONE_FILE = os.path.join(ALLEKOK, "concat_as_one_file")
 
 # check if allekok-poems directory exists else clone from github
 if not os.path.exists(ALLEKOK_DIR):
@@ -86,13 +87,17 @@ def concat_all_poems():
 
 
 if __name__ == "__main__":
+    # check if allekok directory exists, if not create it
+    if not os.path.exists("./allekok"):
+        os.mkdir("./allekok")
+
     if not os.path.exists(CONCAT_AS_ONE_FILE):
         os.mkdir(CONCAT_AS_ONE_FILE)
         extract_poem(poem_full_paths)
     else:
         rprint("Concat_as_one_file directory exists, skipping...")
 
-    if not os.path.exists("./all_poems.txt"):
+    if not os.path.exists(f"{ALLEKOK}/all_poems.txt"):
         concat_all_poems()
     else:
         rprint("all_poems.txt exists, skipping...")
