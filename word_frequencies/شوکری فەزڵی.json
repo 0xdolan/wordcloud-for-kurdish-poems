@@ -1,0 +1,5458 @@
+[
+    {
+        "entry": "و",
+        "frequency": 117
+    },
+    {
+        "entry": "لە",
+        "frequency": 73
+    },
+    {
+        "entry": "بە",
+        "frequency": 66
+    },
+    {
+        "entry": "کە",
+        "frequency": 36
+    },
+    {
+        "entry": "بێ",
+        "frequency": 34
+    },
+    {
+        "entry": "بۆ",
+        "frequency": 24
+    },
+    {
+        "entry": "نییە",
+        "frequency": 24
+    },
+    {
+        "entry": "ھەر",
+        "frequency": 24
+    },
+    {
+        "entry": "من",
+        "frequency": 22
+    },
+    {
+        "entry": "ئەو",
+        "frequency": 19
+    },
+    {
+        "entry": "نەکەم",
+        "frequency": 18
+    },
+    {
+        "entry": "با",
+        "frequency": 17
+    },
+    {
+        "entry": "دڵ",
+        "frequency": 14
+    },
+    {
+        "entry": "وا",
+        "frequency": 14
+    },
+    {
+        "entry": "شێخ",
+        "frequency": 13
+    },
+    {
+        "entry": "ھەممی",
+        "frequency": 12
+    },
+    {
+        "entry": "تۆ",
+        "frequency": 12
+    },
+    {
+        "entry": "وەک",
+        "frequency": 12
+    },
+    {
+        "entry": "ئەم",
+        "frequency": 10
+    },
+    {
+        "entry": "شوکری",
+        "frequency": 10
+    },
+    {
+        "entry": "تا",
+        "frequency": 10
+    },
+    {
+        "entry": "ئەگەر",
+        "frequency": 9
+    },
+    {
+        "entry": "عاشق",
+        "frequency": 8
+    },
+    {
+        "entry": "ھەموو",
+        "frequency": 8
+    },
+    {
+        "entry": "ڕەزا",
+        "frequency": 8
+    },
+    {
+        "entry": "نەکەی",
+        "frequency": 8
+    },
+    {
+        "entry": "یەک",
+        "frequency": 8
+    },
+    {
+        "entry": "کردووە",
+        "frequency": 8
+    },
+    {
+        "entry": "کەی",
+        "frequency": 8
+    },
+    {
+        "entry": "کوزی",
+        "frequency": 7
+    },
+    {
+        "entry": "لەبەر",
+        "frequency": 7
+    },
+    {
+        "entry": "گەر",
+        "frequency": 7
+    },
+    {
+        "entry": "کوانێ",
+        "frequency": 6
+    },
+    {
+        "entry": "شۆخە",
+        "frequency": 6
+    },
+    {
+        "entry": "ئێستاکە",
+        "frequency": 6
+    },
+    {
+        "entry": "لەحزە",
+        "frequency": 6
+    },
+    {
+        "entry": "ئەی",
+        "frequency": 6
+    },
+    {
+        "entry": "ئه‌كه‌م",
+        "frequency": 6
+    },
+    {
+        "entry": "سەر",
+        "frequency": 6
+    },
+    {
+        "entry": "وەکوو",
+        "frequency": 6
+    },
+    {
+        "entry": "خۆت",
+        "frequency": 6
+    },
+    {
+        "entry": "خاڵی",
+        "frequency": 6
+    },
+    {
+        "entry": "لەسەر",
+        "frequency": 6
+    },
+    {
+        "entry": "کوا",
+        "frequency": 5
+    },
+    {
+        "entry": "حاڵی",
+        "frequency": 5
+    },
+    {
+        "entry": "مومکین",
+        "frequency": 5
+    },
+    {
+        "entry": "بوو",
+        "frequency": 5
+    },
+    {
+        "entry": "به‌",
+        "frequency": 5
+    },
+    {
+        "entry": "ده‌کات",
+        "frequency": 5
+    },
+    {
+        "entry": "ھەتا",
+        "frequency": 5
+    },
+    {
+        "entry": "شەو",
+        "frequency": 5
+    },
+    {
+        "entry": "ھەم",
+        "frequency": 5
+    },
+    {
+        "entry": "یا",
+        "frequency": 5
+    },
+    {
+        "entry": "خۆی",
+        "frequency": 5
+    },
+    {
+        "entry": "میحنەت",
+        "frequency": 5
+    },
+    {
+        "entry": "بەرگی",
+        "frequency": 5
+    },
+    {
+        "entry": "بکە",
+        "frequency": 4
+    },
+    {
+        "entry": "منی",
+        "frequency": 4
+    },
+    {
+        "entry": "ئێستا",
+        "frequency": 4
+    },
+    {
+        "entry": "جان",
+        "frequency": 4
+    },
+    {
+        "entry": "مەلائیک",
+        "frequency": 4
+    },
+    {
+        "entry": "لێ",
+        "frequency": 4
+    },
+    {
+        "entry": "سەیدی",
+        "frequency": 4
+    },
+    {
+        "entry": "دڵی",
+        "frequency": 4
+    },
+    {
+        "entry": "وو",
+        "frequency": 4
+    },
+    {
+        "entry": "له‌",
+        "frequency": 4
+    },
+    {
+        "entry": "پێ",
+        "frequency": 4
+    },
+    {
+        "entry": "دوو",
+        "frequency": 4
+    },
+    {
+        "entry": "جارێ",
+        "frequency": 4
+    },
+    {
+        "entry": "ھەیە",
+        "frequency": 4
+    },
+    {
+        "entry": "کاکۆڵی",
+        "frequency": 4
+    },
+    {
+        "entry": "وەھا",
+        "frequency": 4
+    },
+    {
+        "entry": "چین",
+        "frequency": 4
+    },
+    {
+        "entry": "چینی",
+        "frequency": 4
+    },
+    {
+        "entry": "پەرچەمی",
+        "frequency": 4
+    },
+    {
+        "entry": "شاری",
+        "frequency": 4
+    },
+    {
+        "entry": "ماوە",
+        "frequency": 4
+    },
+    {
+        "entry": "دایکت",
+        "frequency": 4
+    },
+    {
+        "entry": "ئەسیری",
+        "frequency": 4
+    },
+    {
+        "entry": "ئەمما",
+        "frequency": 4
+    },
+    {
+        "entry": "پڕ",
+        "frequency": 4
+    },
+    {
+        "entry": "خوێنینم",
+        "frequency": 4
+    },
+    {
+        "entry": "ئیتر",
+        "frequency": 4
+    },
+    {
+        "entry": "کوردی",
+        "frequency": 4
+    },
+    {
+        "entry": "غەمگینم",
+        "frequency": 3
+    },
+    {
+        "entry": "لێوی",
+        "frequency": 3
+    },
+    {
+        "entry": "عەجەب",
+        "frequency": 3
+    },
+    {
+        "entry": "ناری",
+        "frequency": 3
+    },
+    {
+        "entry": "فیرقەتی",
+        "frequency": 3
+    },
+    {
+        "entry": "ڕەحمێ",
+        "frequency": 3
+    },
+    {
+        "entry": "لەبۆ",
+        "frequency": 3
+    },
+    {
+        "entry": "کوشتنی",
+        "frequency": 3
+    },
+    {
+        "entry": "چ",
+        "frequency": 3
+    },
+    {
+        "entry": "یار",
+        "frequency": 3
+    },
+    {
+        "entry": "کوێر",
+        "frequency": 3
+    },
+    {
+        "entry": "بن",
+        "frequency": 3
+    },
+    {
+        "entry": "شێخ‌ژن",
+        "frequency": 3
+    },
+    {
+        "entry": "بۆچی",
+        "frequency": 3
+    },
+    {
+        "entry": "ھەجوی",
+        "frequency": 3
+    },
+    {
+        "entry": "دەم",
+        "frequency": 3
+    },
+    {
+        "entry": "ئەمڕۆ",
+        "frequency": 3
+    },
+    {
+        "entry": "عالەم",
+        "frequency": 3
+    },
+    {
+        "entry": "ڕۆژ",
+        "frequency": 3
+    },
+    {
+        "entry": "چونکە",
+        "frequency": 3
+    },
+    {
+        "entry": "ئەبرۆ",
+        "frequency": 3
+    },
+    {
+        "entry": "نەبێ",
+        "frequency": 3
+    },
+    {
+        "entry": "بۆیە",
+        "frequency": 3
+    },
+    {
+        "entry": "داوە",
+        "frequency": 3
+    },
+    {
+        "entry": "ناو",
+        "frequency": 3
+    },
+    {
+        "entry": "حیزە",
+        "frequency": 3
+    },
+    {
+        "entry": "لێشاوی",
+        "frequency": 3
+    },
+    {
+        "entry": "بۆچ",
+        "frequency": 3
+    },
+    {
+        "entry": "یایە",
+        "frequency": 3
+    },
+    {
+        "entry": "دەستی",
+        "frequency": 3
+    },
+    {
+        "entry": "بەم",
+        "frequency": 3
+    },
+    {
+        "entry": "دنیا",
+        "frequency": 3
+    },
+    {
+        "entry": "موتڵەق",
+        "frequency": 3
+    },
+    {
+        "entry": "باوکی",
+        "frequency": 3
+    },
+    {
+        "entry": "کونجی",
+        "frequency": 3
+    },
+    {
+        "entry": "ئاخر",
+        "frequency": 3
+    },
+    {
+        "entry": "دەردی",
+        "frequency": 3
+    },
+    {
+        "entry": "مرووەت",
+        "frequency": 3
+    },
+    {
+        "entry": "عەبەس",
+        "frequency": 3
+    },
+    {
+        "entry": "سیفەت",
+        "frequency": 3
+    },
+    {
+        "entry": "حوسنی",
+        "frequency": 3
+    },
+    {
+        "entry": "لەگەڵ",
+        "frequency": 3
+    },
+    {
+        "entry": "مەحموود",
+        "frequency": 3
+    },
+    {
+        "entry": "تۆش",
+        "frequency": 3
+    },
+    {
+        "entry": "عەشقم",
+        "frequency": 3
+    },
+    {
+        "entry": "بکا",
+        "frequency": 3
+    },
+    {
+        "entry": "زەدەی",
+        "frequency": 3
+    },
+    {
+        "entry": "شەھیدی",
+        "frequency": 3
+    },
+    {
+        "entry": "مەکەن",
+        "frequency": 3
+    },
+    {
+        "entry": "یاران",
+        "frequency": 3
+    },
+    {
+        "entry": "مەزھەب",
+        "frequency": 3
+    },
+    {
+        "entry": "گوو",
+        "frequency": 3
+    },
+    {
+        "entry": "کێ",
+        "frequency": 3
+    },
+    {
+        "entry": "میری",
+        "frequency": 2
+    },
+    {
+        "entry": "مەحزوون",
+        "frequency": 2
+    },
+    {
+        "entry": "ئەشک",
+        "frequency": 2
+    },
+    {
+        "entry": "سەبا",
+        "frequency": 2
+    },
+    {
+        "entry": "لوتفێ",
+        "frequency": 2
+    },
+    {
+        "entry": "بێنە",
+        "frequency": 2
+    },
+    {
+        "entry": "جانی",
+        "frequency": 2
+    },
+    {
+        "entry": "جانانم",
+        "frequency": 2
+    },
+    {
+        "entry": "دووچاری",
+        "frequency": 2
+    },
+    {
+        "entry": "دەرد",
+        "frequency": 2
+    },
+    {
+        "entry": "ماچی",
+        "frequency": 2
+    },
+    {
+        "entry": "خوێنی",
+        "frequency": 2
+    },
+    {
+        "entry": "سووتا",
+        "frequency": 2
+    },
+    {
+        "entry": "خودا",
+        "frequency": 2
+    },
+    {
+        "entry": "مانم",
+        "frequency": 2
+    },
+    {
+        "entry": "وەجھی",
+        "frequency": 2
+    },
+    {
+        "entry": "زار",
+        "frequency": 2
+    },
+    {
+        "entry": "چاوی",
+        "frequency": 2
+    },
+    {
+        "entry": "تیری",
+        "frequency": 2
+    },
+    {
+        "entry": "قەد",
+        "frequency": 2
+    },
+    {
+        "entry": "باعیس",
+        "frequency": 2
+    },
+    {
+        "entry": "فیراقی",
+        "frequency": 2
+    },
+    {
+        "entry": "ئەغیارە",
+        "frequency": 2
+    },
+    {
+        "entry": "لەو",
+        "frequency": 2
+    },
+    {
+        "entry": "كه‌ركووک",
+        "frequency": 2
+    },
+    {
+        "entry": "هه‌يه‌",
+        "frequency": 2
+    },
+    {
+        "entry": "فاڵی",
+        "frequency": 2
+    },
+    {
+        "entry": "چا",
+        "frequency": 2
+    },
+    {
+        "entry": "بكه‌م",
+        "frequency": 2
+    },
+    {
+        "entry": "عاجز",
+        "frequency": 2
+    },
+    {
+        "entry": "گاسنی",
+        "frequency": 2
+    },
+    {
+        "entry": "ڕە‌زا",
+        "frequency": 2
+    },
+    {
+        "entry": "که‌",
+        "frequency": 2
+    },
+    {
+        "entry": "ئه‌گه‌ر",
+        "frequency": 2
+    },
+    {
+        "entry": "دایکی",
+        "frequency": 2
+    },
+    {
+        "entry": "ئه‌م",
+        "frequency": 2
+    },
+    {
+        "entry": "دی",
+        "frequency": 2
+    },
+    {
+        "entry": "ئیش",
+        "frequency": 2
+    },
+    {
+        "entry": "دا",
+        "frequency": 2
+    },
+    {
+        "entry": "لێی",
+        "frequency": 2
+    },
+    {
+        "entry": "دڵدا",
+        "frequency": 2
+    },
+    {
+        "entry": "حەیفە",
+        "frequency": 2
+    },
+    {
+        "entry": "عەینی",
+        "frequency": 2
+    },
+    {
+        "entry": "ھەوا",
+        "frequency": 2
+    },
+    {
+        "entry": "قسەی",
+        "frequency": 2
+    },
+    {
+        "entry": "خەریکی",
+        "frequency": 2
+    },
+    {
+        "entry": "زارە",
+        "frequency": 2
+    },
+    {
+        "entry": "پەرێشان",
+        "frequency": 2
+    },
+    {
+        "entry": "قوربان",
+        "frequency": 2
+    },
+    {
+        "entry": "قەت",
+        "frequency": 2
+    },
+    {
+        "entry": "کەمان",
+        "frequency": 2
+    },
+    {
+        "entry": "مورغی",
+        "frequency": 2
+    },
+    {
+        "entry": "موشکینت",
+        "frequency": 2
+    },
+    {
+        "entry": "چی",
+        "frequency": 2
+    },
+    {
+        "entry": "پێچاوپێچ",
+        "frequency": 2
+    },
+    {
+        "entry": "خوارە",
+        "frequency": 2
+    },
+    {
+        "entry": "سست",
+        "frequency": 2
+    },
+    {
+        "entry": "سەفحەی",
+        "frequency": 2
+    },
+    {
+        "entry": "غەددارە",
+        "frequency": 2
+    },
+    {
+        "entry": "حەمەد",
+        "frequency": 2
+    },
+    {
+        "entry": "بەگ",
+        "frequency": 2
+    },
+    {
+        "entry": "ھەروەکوو",
+        "frequency": 2
+    },
+    {
+        "entry": "مەشھووری",
+        "frequency": 2
+    },
+    {
+        "entry": "دەبێ",
+        "frequency": 2
+    },
+    {
+        "entry": "شێعری",
+        "frequency": 2
+    },
+    {
+        "entry": "ئه‌ی",
+        "frequency": 2
+    },
+    {
+        "entry": "کێری",
+        "frequency": 2
+    },
+    {
+        "entry": "خۆم",
+        "frequency": 2
+    },
+    {
+        "entry": "کەوتووە",
+        "frequency": 2
+    },
+    {
+        "entry": "نەماوە",
+        "frequency": 2
+    },
+    {
+        "entry": "ھەجووت",
+        "frequency": 2
+    },
+    {
+        "entry": "بەیتی",
+        "frequency": 2
+    },
+    {
+        "entry": "تۆم",
+        "frequency": 2
+    },
+    {
+        "entry": "گوڵچین",
+        "frequency": 2
+    },
+    {
+        "entry": "گانی",
+        "frequency": 2
+    },
+    {
+        "entry": "سەد",
+        "frequency": 2
+    },
+    {
+        "entry": "هه‌جوی",
+        "frequency": 2
+    },
+    {
+        "entry": "ئەمە",
+        "frequency": 2
+    },
+    {
+        "entry": "نەخۆشە",
+        "frequency": 2
+    },
+    {
+        "entry": "بپرسە",
+        "frequency": 2
+    },
+    {
+        "entry": "عیلاجی",
+        "frequency": 2
+    },
+    {
+        "entry": "ئەوە",
+        "frequency": 2
+    },
+    {
+        "entry": "حەرام",
+        "frequency": 2
+    },
+    {
+        "entry": "پاش",
+        "frequency": 2
+    },
+    {
+        "entry": "ناولنگی",
+        "frequency": 2
+    },
+    {
+        "entry": "بەری",
+        "frequency": 2
+    },
+    {
+        "entry": "ھەروا",
+        "frequency": 2
+    },
+    {
+        "entry": "دەزانێ",
+        "frequency": 2
+    },
+    {
+        "entry": "گەن",
+        "frequency": 2
+    },
+    {
+        "entry": "زەحمەت",
+        "frequency": 2
+    },
+    {
+        "entry": "ڕەققاس",
+        "frequency": 2
+    },
+    {
+        "entry": "ژنت",
+        "frequency": 2
+    },
+    {
+        "entry": "بنە",
+        "frequency": 2
+    },
+    {
+        "entry": "ئەزانێ",
+        "frequency": 2
+    },
+    {
+        "entry": "منە",
+        "frequency": 2
+    },
+    {
+        "entry": "بەغدا",
+        "frequency": 2
+    },
+    {
+        "entry": "گەووادی",
+        "frequency": 2
+    },
+    {
+        "entry": "زامی",
+        "frequency": 2
+    },
+    {
+        "entry": "برینداری",
+        "frequency": 2
+    },
+    {
+        "entry": "خەدەنگی",
+        "frequency": 2
+    },
+    {
+        "entry": "کەسێ",
+        "frequency": 2
+    },
+    {
+        "entry": "ڕەقیبی",
+        "frequency": 2
+    },
+    {
+        "entry": "بەد",
+        "frequency": 2
+    },
+    {
+        "entry": "ڕەب",
+        "frequency": 2
+    },
+    {
+        "entry": "بەحری",
+        "frequency": 2
+    },
+    {
+        "entry": "غەم",
+        "frequency": 2
+    },
+    {
+        "entry": "فیرقەت",
+        "frequency": 2
+    },
+    {
+        "entry": "بم",
+        "frequency": 2
+    },
+    {
+        "entry": "وەقتی",
+        "frequency": 2
+    },
+    {
+        "entry": "وەسڵەت",
+        "frequency": 2
+    },
+    {
+        "entry": "دوور",
+        "frequency": 2
+    },
+    {
+        "entry": "عەقیقی",
+        "frequency": 2
+    },
+    {
+        "entry": "حوور",
+        "frequency": 2
+    },
+    {
+        "entry": "پەرچەم",
+        "frequency": 2
+    },
+    {
+        "entry": "خیرەد",
+        "frequency": 2
+    },
+    {
+        "entry": "باغی",
+        "frequency": 2
+    },
+    {
+        "entry": "گوڵی",
+        "frequency": 2
+    },
+    {
+        "entry": "نێرگسی",
+        "frequency": 2
+    },
+    {
+        "entry": "مەستی",
+        "frequency": 2
+    },
+    {
+        "entry": "موژەی",
+        "frequency": 2
+    },
+    {
+        "entry": "غەمزە",
+        "frequency": 2
+    },
+    {
+        "entry": "نافەیی",
+        "frequency": 2
+    },
+    {
+        "entry": "ڕوومەتی",
+        "frequency": 2
+    },
+    {
+        "entry": "گوڵزاری",
+        "frequency": 2
+    },
+    {
+        "entry": "خولد",
+        "frequency": 2
+    },
+    {
+        "entry": "خەنجەر",
+        "frequency": 2
+    },
+    {
+        "entry": "دڵم",
+        "frequency": 2
+    },
+    {
+        "entry": "بڵێ",
+        "frequency": 2
+    },
+    {
+        "entry": "خوێن",
+        "frequency": 2
+    },
+    {
+        "entry": "دیارە",
+        "frequency": 2
+    },
+    {
+        "entry": "ماھ",
+        "frequency": 2
+    },
+    {
+        "entry": "جەبینن",
+        "frequency": 2
+    },
+    {
+        "entry": "ڕوو",
+        "frequency": 2
+    },
+    {
+        "entry": "شکەنی",
+        "frequency": 2
+    },
+    {
+        "entry": "ئاھ",
+        "frequency": 2
+    },
+    {
+        "entry": "مەخۆ",
+        "frequency": 2
+    },
+    {
+        "entry": "گا",
+        "frequency": 2
+    },
+    {
+        "entry": "گەھێ",
+        "frequency": 2
+    },
+    {
+        "entry": "کەس",
+        "frequency": 2
+    },
+    {
+        "entry": "مەکە",
+        "frequency": 2
+    },
+    {
+        "entry": "بەدەم",
+        "frequency": 2
+    },
+    {
+        "entry": "جۆ",
+        "frequency": 2
+    },
+    {
+        "entry": "شیرینم",
+        "frequency": 2
+    },
+    {
+        "entry": "ڕەفیقی",
+        "frequency": 2
+    },
+    {
+        "entry": "عاجزن",
+        "frequency": 2
+    },
+    {
+        "entry": "ناڵینم",
+        "frequency": 2
+    },
+    {
+        "entry": "گورێزانن",
+        "frequency": 2
+    },
+    {
+        "entry": "مەوجی",
+        "frequency": 2
+    },
+    {
+        "entry": "ئەگەرچی",
+        "frequency": 2
+    },
+    {
+        "entry": "مەشغووڵی",
+        "frequency": 2
+    },
+    {
+        "entry": "نەغمەی",
+        "frequency": 2
+    },
+    {
+        "entry": "موتریبم",
+        "frequency": 2
+    },
+    {
+        "entry": "ساتێ",
+        "frequency": 2
+    },
+    {
+        "entry": "دڵەی",
+        "frequency": 2
+    },
+    {
+        "entry": "ھیجران",
+        "frequency": 2
+    },
+    {
+        "entry": "ئەوا",
+        "frequency": 2
+    },
+    {
+        "entry": "تەبیب",
+        "frequency": 2
+    },
+    {
+        "entry": "دەوای",
+        "frequency": 2
+    },
+    {
+        "entry": "دەردم",
+        "frequency": 2
+    },
+    {
+        "entry": "خۆ",
+        "frequency": 2
+    },
+    {
+        "entry": "دووریم",
+        "frequency": 2
+    },
+    {
+        "entry": "وەسڵی",
+        "frequency": 2
+    },
+    {
+        "entry": "ئارام",
+        "frequency": 2
+    },
+    {
+        "entry": "تەسکینم",
+        "frequency": 2
+    },
+    {
+        "entry": "مردم",
+        "frequency": 2
+    },
+    {
+        "entry": "وەسڵت",
+        "frequency": 2
+    },
+    {
+        "entry": "وەسییەت",
+        "frequency": 2
+    },
+    {
+        "entry": "قەوم",
+        "frequency": 2
+    },
+    {
+        "entry": "خوێشانم",
+        "frequency": 2
+    },
+    {
+        "entry": "شینم",
+        "frequency": 2
+    },
+    {
+        "entry": "مەمشۆن",
+        "frequency": 2
+    },
+    {
+        "entry": "کفنم",
+        "frequency": 2
+    },
+    {
+        "entry": "گەواھی",
+        "frequency": 2
+    },
+    {
+        "entry": "حەشرە",
+        "frequency": 2
+    },
+    {
+        "entry": "دەعوای",
+        "frequency": 2
+    },
+    {
+        "entry": "شەھادەت",
+        "frequency": 2
+    },
+    {
+        "entry": "جیسمی",
+        "frequency": 2
+    },
+    {
+        "entry": "پەردەی",
+        "frequency": 2
+    },
+    {
+        "entry": "تاھیری",
+        "frequency": 2
+    },
+    {
+        "entry": "سەدای",
+        "frequency": 2
+    },
+    {
+        "entry": "حاجەت",
+        "frequency": 2
+    },
+    {
+        "entry": "بێنن",
+        "frequency": 2
+    },
+    {
+        "entry": "مەلا",
+        "frequency": 2
+    },
+    {
+        "entry": "وەعز",
+        "frequency": 2
+    },
+    {
+        "entry": "تەڵقینم",
+        "frequency": 2
+    },
+    {
+        "entry": "دێن",
+        "frequency": 2
+    },
+    {
+        "entry": "کام",
+        "frequency": 2
+    },
+    {
+        "entry": "دینم",
+        "frequency": 2
+    },
+    {
+        "entry": "بەجارێ",
+        "frequency": 2
+    },
+    {
+        "entry": "ئەحمەق",
+        "frequency": 2
+    },
+    {
+        "entry": "لەق",
+        "frequency": 2
+    },
+    {
+        "entry": "زەق",
+        "frequency": 2
+    },
+    {
+        "entry": "تۆی",
+        "frequency": 2
+    },
+    {
+        "entry": "مەترەق",
+        "frequency": 2
+    },
+    {
+        "entry": "شەق",
+        "frequency": 2
+    },
+    {
+        "entry": "نەستەق",
+        "frequency": 2
+    },
+    {
+        "entry": "مەعلوومت",
+        "frequency": 2
+    },
+    {
+        "entry": "لەعنەت",
+        "frequency": 2
+    },
+    {
+        "entry": "زاتت",
+        "frequency": 2
+    },
+    {
+        "entry": "ھەی",
+        "frequency": 2
+    },
+    {
+        "entry": "تەرەس",
+        "frequency": 2
+    },
+    {
+        "entry": "گوێی",
+        "frequency": 2
+    },
+    {
+        "entry": "چووزانم",
+        "frequency": 2
+    },
+    {
+        "entry": "دایەبەر",
+        "frequency": 2
+    },
+    {
+        "entry": "پێش",
+        "frequency": 2
+    },
+    {
+        "entry": "پەس",
+        "frequency": 2
+    },
+    {
+        "entry": "وتم",
+        "frequency": 2
+    },
+    {
+        "entry": "شاھم",
+        "frequency": 1
+    },
+    {
+        "entry": "ماھم",
+        "frequency": 1
+    },
+    {
+        "entry": "سەرداری",
+        "frequency": 1
+    },
+    {
+        "entry": "خووبانم",
+        "frequency": 1
+    },
+    {
+        "entry": "ئارامی",
+        "frequency": 1
+    },
+    {
+        "entry": "گیان",
+        "frequency": 1
+    },
+    {
+        "entry": "میرانم",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕاحەت",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕەسانی",
+        "frequency": 1
+    },
+    {
+        "entry": "خاتری",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕۆشنایی",
+        "frequency": 1
+    },
+    {
+        "entry": "بەخشی",
+        "frequency": 1
+    },
+    {
+        "entry": "دیدەی",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕێژانم",
+        "frequency": 1
+    },
+    {
+        "entry": "شەھسواری",
+        "frequency": 1
+    },
+    {
+        "entry": "عەرسەیی",
+        "frequency": 1
+    },
+    {
+        "entry": "حوسن",
+        "frequency": 1
+    },
+    {
+        "entry": "مەلاحەتمان",
+        "frequency": 1
+    },
+    {
+        "entry": "شای",
+        "frequency": 1
+    },
+    {
+        "entry": "سوپاھی",
+        "frequency": 1
+    },
+    {
+        "entry": "دولبەرانی",
+        "frequency": 1
+    },
+    {
+        "entry": "ماھڕوویانم",
+        "frequency": 1
+    },
+    {
+        "entry": "پەیامێ",
+        "frequency": 1
+    },
+    {
+        "entry": "بێدڵ",
+        "frequency": 1
+    },
+    {
+        "entry": "یۆسفی",
+        "frequency": 1
+    },
+    {
+        "entry": "سانی",
+        "frequency": 1
+    },
+    {
+        "entry": "ھیجر",
+        "frequency": 1
+    },
+    {
+        "entry": "کرد",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕۆیی",
+        "frequency": 1
+    },
+    {
+        "entry": "بەغەیرەز",
+        "frequency": 1
+    },
+    {
+        "entry": "دەرمانم",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕەحمی",
+        "frequency": 1
+    },
+    {
+        "entry": "لالە",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕوخسارە",
+        "frequency": 1
+    },
+    {
+        "entry": "لالەزارێکە",
+        "frequency": 1
+    },
+    {
+        "entry": "دامانم",
+        "frequency": 1
+    },
+    {
+        "entry": "یەکسەر",
+        "frequency": 1
+    },
+    {
+        "entry": "جەرگ",
+        "frequency": 1
+    },
+    {
+        "entry": "نەکا",
+        "frequency": 1
+    },
+    {
+        "entry": "مەرحەمەت",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەمشەو",
+        "frequency": 1
+    },
+    {
+        "entry": "چەرخی",
+        "frequency": 1
+    },
+    {
+        "entry": "ھەفتەما",
+        "frequency": 1
+    },
+    {
+        "entry": "ناڵین",
+        "frequency": 1
+    },
+    {
+        "entry": "پەرێشانم",
+        "frequency": 1
+    },
+    {
+        "entry": "شەیدایان",
+        "frequency": 1
+    },
+    {
+        "entry": "موھەییایە",
+        "frequency": 1
+    },
+    {
+        "entry": "حەزەری",
+        "frequency": 1
+    },
+    {
+        "entry": "خەوف",
+        "frequency": 1
+    },
+    {
+        "entry": "موحابایە",
+        "frequency": 1
+    },
+    {
+        "entry": "مەستە",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەڵێن",
+        "frequency": 1
+    },
+    {
+        "entry": "بیبینە",
+        "frequency": 1
+    },
+    {
+        "entry": "ھۆشیارە",
+        "frequency": 1
+    },
+    {
+        "entry": "کەماندایە",
+        "frequency": 1
+    },
+    {
+        "entry": "نەفعی",
+        "frequency": 1
+    },
+    {
+        "entry": "چییە",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕۆحە",
+        "frequency": 1
+    },
+    {
+        "entry": "نەیکەم",
+        "frequency": 1
+    },
+    {
+        "entry": "قوربانی",
+        "frequency": 1
+    },
+    {
+        "entry": "باڵای",
+        "frequency": 1
+    },
+    {
+        "entry": "دولبەرە",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕەعنایە",
+        "frequency": 1
+    },
+    {
+        "entry": "تەعنەیی",
+        "frequency": 1
+    },
+    {
+        "entry": "مەحرووم",
+        "frequency": 1
+    },
+    {
+        "entry": "بەزم",
+        "frequency": 1
+    },
+    {
+        "entry": "تەماشایە",
+        "frequency": 1
+    },
+    {
+        "entry": "نەزم",
+        "frequency": 1
+    },
+    {
+        "entry": "غەزەلی",
+        "frequency": 1
+    },
+    {
+        "entry": "شایستەیی",
+        "frequency": 1
+    },
+    {
+        "entry": "تەحسینە",
+        "frequency": 1
+    },
+    {
+        "entry": "مەوزوون",
+        "frequency": 1
+    },
+    {
+        "entry": "تەڕ",
+        "frequency": 1
+    },
+    {
+        "entry": "شیرین",
+        "frequency": 1
+    },
+    {
+        "entry": "دڵجۆ",
+        "frequency": 1
+    },
+    {
+        "entry": "ئارایە",
+        "frequency": 1
+    },
+    {
+        "entry": "هاتووم",
+        "frequency": 1
+    },
+    {
+        "entry": "ده‌عوام",
+        "frequency": 1
+    },
+    {
+        "entry": "ده‌عوا",
+        "frequency": 1
+    },
+    {
+        "entry": "كێری",
+        "frequency": 1
+    },
+    {
+        "entry": "چل",
+        "frequency": 1
+    },
+    {
+        "entry": "تابووری",
+        "frequency": 1
+    },
+    {
+        "entry": "كوردان",
+        "frequency": 1
+    },
+    {
+        "entry": "بای",
+        "frequency": 1
+    },
+    {
+        "entry": "ئه‌ده‌م",
+        "frequency": 1
+    },
+    {
+        "entry": "تێی",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕا",
+        "frequency": 1
+    },
+    {
+        "entry": "كورد",
+        "frequency": 1
+    },
+    {
+        "entry": "عاره‌ب",
+        "frequency": 1
+    },
+    {
+        "entry": "داوده‌",
+        "frequency": 1
+    },
+    {
+        "entry": "فه‌حلن",
+        "frequency": 1
+    },
+    {
+        "entry": "لێدان",
+        "frequency": 1
+    },
+    {
+        "entry": "هه‌موو",
+        "frequency": 1
+    },
+    {
+        "entry": "گه‌رمه‌",
+        "frequency": 1
+    },
+    {
+        "entry": "عاله‌می",
+        "frequency": 1
+    },
+    {
+        "entry": "مه‌قسه‌دی",
+        "frequency": 1
+    },
+    {
+        "entry": "كردنی",
+        "frequency": 1
+    },
+    {
+        "entry": "ئيسمی",
+        "frequency": 1
+    },
+    {
+        "entry": "ياشێخ",
+        "frequency": 1
+    },
+    {
+        "entry": "جێی",
+        "frequency": 1
+    },
+    {
+        "entry": "حاكمی",
+        "frequency": 1
+    },
+    {
+        "entry": "سێ",
+        "frequency": 1
+    },
+    {
+        "entry": "وجووهم",
+        "frequency": 1
+    },
+    {
+        "entry": "حوكمی",
+        "frequency": 1
+    },
+    {
+        "entry": "ئيجرا",
+        "frequency": 1
+    },
+    {
+        "entry": "وه‌ی",
+        "frequency": 1
+    },
+    {
+        "entry": "ئافه‌رينتان",
+        "frequency": 1
+    },
+    {
+        "entry": "نه‌بێ",
+        "frequency": 1
+    },
+    {
+        "entry": "چابوكی",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕيسوا",
+        "frequency": 1
+    },
+    {
+        "entry": "هه‌جووم",
+        "frequency": 1
+    },
+    {
+        "entry": "وه‌ردی",
+        "frequency": 1
+    },
+    {
+        "entry": "مه‌عته‌ل",
+        "frequency": 1
+    },
+    {
+        "entry": "بووه‌",
+        "frequency": 1
+    },
+    {
+        "entry": "نايبڕێ",
+        "frequency": 1
+    },
+    {
+        "entry": "شوكری",
+        "frequency": 1
+    },
+    {
+        "entry": "بيللا",
+        "frequency": 1
+    },
+    {
+        "entry": "پۆڵا",
+        "frequency": 1
+    },
+    {
+        "entry": "حیزێک",
+        "frequency": 1
+    },
+    {
+        "entry": "قسه‌",
+        "frequency": 1
+    },
+    {
+        "entry": "ببه‌ستێ",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕه‌زاوه‌",
+        "frequency": 1
+    },
+    {
+        "entry": "بێ‌شک",
+        "frequency": 1
+    },
+    {
+        "entry": "حه‌ڵاڵی",
+        "frequency": 1
+    },
+    {
+        "entry": "نه‌زاوه‌",
+        "frequency": 1
+    },
+    {
+        "entry": "حیکمه‌ت",
+        "frequency": 1
+    },
+    {
+        "entry": "قیمه‌ت",
+        "frequency": 1
+    },
+    {
+        "entry": "جێ",
+        "frequency": 1
+    },
+    {
+        "entry": "نییه‌",
+        "frequency": 1
+    },
+    {
+        "entry": "شیعری",
+        "frequency": 1
+    },
+    {
+        "entry": "عومری",
+        "frequency": 1
+    },
+    {
+        "entry": "هه‌وه‌ڵ",
+        "frequency": 1
+    },
+    {
+        "entry": "ئاخری",
+        "frequency": 1
+    },
+    {
+        "entry": "تێدا",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕزاوه‌",
+        "frequency": 1
+    },
+    {
+        "entry": "گه‌ن",
+        "frequency": 1
+    },
+    {
+        "entry": "گۆخۆری",
+        "frequency": 1
+    },
+    {
+        "entry": "سوله‌یمانییه‌",
+        "frequency": 1
+    },
+    {
+        "entry": "وت",
+        "frequency": 1
+    },
+    {
+        "entry": "هه‌ر",
+        "frequency": 1
+    },
+    {
+        "entry": "چه‌نده‌",
+        "frequency": 1
+    },
+    {
+        "entry": "وه‌کوو",
+        "frequency": 1
+    },
+    {
+        "entry": "لۆتی",
+        "frequency": 1
+    },
+    {
+        "entry": "ده‌گه‌ڕاوه‌",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕووی",
+        "frequency": 1
+    },
+    {
+        "entry": "ئێستە",
+        "frequency": 1
+    },
+    {
+        "entry": "ھەورازە",
+        "frequency": 1
+    },
+    {
+        "entry": "سەرەولێژی",
+        "frequency": 1
+    },
+    {
+        "entry": "فکری",
+        "frequency": 1
+    },
+    {
+        "entry": "وردیشی",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەوێ",
+        "frequency": 1
+    },
+    {
+        "entry": "دۆعا",
+        "frequency": 1
+    },
+    {
+        "entry": "نوێژی",
+        "frequency": 1
+    },
+    {
+        "entry": "گێرەشێوێنێ",
+        "frequency": 1
+    },
+    {
+        "entry": "کای",
+        "frequency": 1
+    },
+    {
+        "entry": "کۆنی",
+        "frequency": 1
+    },
+    {
+        "entry": "کنت",
+        "frequency": 1
+    },
+    {
+        "entry": "چاکە",
+        "frequency": 1
+    },
+    {
+        "entry": "خوڕی",
+        "frequency": 1
+    },
+    {
+        "entry": "سەیری",
+        "frequency": 1
+    },
+    {
+        "entry": "کاوێژی",
+        "frequency": 1
+    },
+    {
+        "entry": "سەرەتای",
+        "frequency": 1
+    },
+    {
+        "entry": "بوونە",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەویش",
+        "frequency": 1
+    },
+    {
+        "entry": "نابێ",
+        "frequency": 1
+    },
+    {
+        "entry": "برینێ",
+        "frequency": 1
+    },
+    {
+        "entry": "ساڕێژی",
+        "frequency": 1
+    },
+    {
+        "entry": "چاوێ",
+        "frequency": 1
+    },
+    {
+        "entry": "جەفا",
+        "frequency": 1
+    },
+    {
+        "entry": "کۆڵەوەژی",
+        "frequency": 1
+    },
+    {
+        "entry": "تێدەشکان",
+        "frequency": 1
+    },
+    {
+        "entry": "کلچێوکی",
+        "frequency": 1
+    },
+    {
+        "entry": "وەفا",
+        "frequency": 1
+    },
+    {
+        "entry": "گەلاوێژی",
+        "frequency": 1
+    },
+    {
+        "entry": "قەومی",
+        "frequency": 1
+    },
+    {
+        "entry": "عالەمدا",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەتەوێ",
+        "frequency": 1
+    },
+    {
+        "entry": "تاجی",
+        "frequency": 1
+    },
+    {
+        "entry": "سەری",
+        "frequency": 1
+    },
+    {
+        "entry": "بی",
+        "frequency": 1
+    },
+    {
+        "entry": "گێژی",
+        "frequency": 1
+    },
+    {
+        "entry": "شا",
+        "frequency": 1
+    },
+    {
+        "entry": "شایەکی",
+        "frequency": 1
+    },
+    {
+        "entry": "شەترەنجە",
+        "frequency": 1
+    },
+    {
+        "entry": "گەورە",
+        "frequency": 1
+    },
+    {
+        "entry": "قانوونە",
+        "frequency": 1
+    },
+    {
+        "entry": "کورت",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەمەیە",
+        "frequency": 1
+    },
+    {
+        "entry": "درێژی",
+        "frequency": 1
+    },
+    {
+        "entry": "ھیجرا",
+        "frequency": 1
+    },
+    {
+        "entry": "ناڵەیی",
+        "frequency": 1
+    },
+    {
+        "entry": "حاڵە",
+        "frequency": 1
+    },
+    {
+        "entry": "غەمبار",
+        "frequency": 1
+    },
+    {
+        "entry": "بیمارە",
+        "frequency": 1
+    },
+    {
+        "entry": "شیفام",
+        "frequency": 1
+    },
+    {
+        "entry": "لێوت",
+        "frequency": 1
+    },
+    {
+        "entry": "نووکی",
+        "frequency": 1
+    },
+    {
+        "entry": "خەنجەری",
+        "frequency": 1
+    },
+    {
+        "entry": "موژگانی",
+        "frequency": 1
+    },
+    {
+        "entry": "خوونڕێژت",
+        "frequency": 1
+    },
+    {
+        "entry": "بریندارە",
+        "frequency": 1
+    },
+    {
+        "entry": "بنازم",
+        "frequency": 1
+    },
+    {
+        "entry": "وردە",
+        "frequency": 1
+    },
+    {
+        "entry": "غەمزەی",
+        "frequency": 1
+    },
+    {
+        "entry": "مەستت",
+        "frequency": 1
+    },
+    {
+        "entry": "تیرێکی",
+        "frequency": 1
+    },
+    {
+        "entry": "خوێنخوارە",
+        "frequency": 1
+    },
+    {
+        "entry": "تۆدا",
+        "frequency": 1
+    },
+    {
+        "entry": "ھاتە",
+        "frequency": 1
+    },
+    {
+        "entry": "باغ",
+        "frequency": 1
+    },
+    {
+        "entry": "مەگەر",
+        "frequency": 1
+    },
+    {
+        "entry": "سەرمەستە",
+        "frequency": 1
+    },
+    {
+        "entry": "ئاھیستە",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕەفتارە",
+        "frequency": 1
+    },
+    {
+        "entry": "کوشتن",
+        "frequency": 1
+    },
+    {
+        "entry": "شاد",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەبم",
+        "frequency": 1
+    },
+    {
+        "entry": "شەرتێ",
+        "frequency": 1
+    },
+    {
+        "entry": "بەجێ",
+        "frequency": 1
+    },
+    {
+        "entry": "بێڵێ",
+        "frequency": 1
+    },
+    {
+        "entry": "خەنجەرێ",
+        "frequency": 1
+    },
+    {
+        "entry": "یادگار",
+        "frequency": 1
+    },
+    {
+        "entry": "بڵێی",
+        "frequency": 1
+    },
+    {
+        "entry": "شیرینە",
+        "frequency": 1
+    },
+    {
+        "entry": "نەزمم",
+        "frequency": 1
+    },
+    {
+        "entry": "ئافاق",
+        "frequency": 1
+    },
+    {
+        "entry": "پەسندی",
+        "frequency": 1
+    },
+    {
+        "entry": "بەیتەیان",
+        "frequency": 1
+    },
+    {
+        "entry": "وا'یەی",
+        "frequency": 1
+    },
+    {
+        "entry": "لەنگ",
+        "frequency": 1
+    },
+    {
+        "entry": "مەبەست",
+        "frequency": 1
+    },
+    {
+        "entry": "حەمەدبەگی",
+        "frequency": 1
+    },
+    {
+        "entry": "گوندی",
+        "frequency": 1
+    },
+    {
+        "entry": "موغانی",
+        "frequency": 1
+    },
+    {
+        "entry": "لای",
+        "frequency": 1
+    },
+    {
+        "entry": "سلێمانييە",
+        "frequency": 1
+    },
+    {
+        "entry": "شاهم",
+        "frequency": 1
+    },
+    {
+        "entry": "وه‌رگره‌",
+        "frequency": 1
+    },
+    {
+        "entry": "كه‌م",
+        "frequency": 1
+    },
+    {
+        "entry": "ده‌ماغ",
+        "frequency": 1
+    },
+    {
+        "entry": "سه‌رسه‌ری",
+        "frequency": 1
+    },
+    {
+        "entry": "زۆڵی",
+        "frequency": 1
+    },
+    {
+        "entry": "سنه‌م",
+        "frequency": 1
+    },
+    {
+        "entry": "پووشت",
+        "frequency": 1
+    },
+    {
+        "entry": "گه‌وواد",
+        "frequency": 1
+    },
+    {
+        "entry": "كه‌ری",
+        "frequency": 1
+    },
+    {
+        "entry": "تۆيچ",
+        "frequency": 1
+    },
+    {
+        "entry": "لێمان",
+        "frequency": 1
+    },
+    {
+        "entry": "بووگی",
+        "frequency": 1
+    },
+    {
+        "entry": "شاعير",
+        "frequency": 1
+    },
+    {
+        "entry": "حه‌رامزاده‌ی",
+        "frequency": 1
+    },
+    {
+        "entry": "سنه‌",
+        "frequency": 1
+    },
+    {
+        "entry": "بۆچه‌",
+        "frequency": 1
+    },
+    {
+        "entry": "شانێ",
+        "frequency": 1
+    },
+    {
+        "entry": "ناخه‌فێنی",
+        "frequency": 1
+    },
+    {
+        "entry": "مه‌سره‌فی",
+        "frequency": 1
+    },
+    {
+        "entry": "چه‌س",
+        "frequency": 1
+    },
+    {
+        "entry": "ئه‌و",
+        "frequency": 1
+    },
+    {
+        "entry": "تنه‌",
+        "frequency": 1
+    },
+    {
+        "entry": "عيززه‌ت",
+        "frequency": 1
+    },
+    {
+        "entry": "ئاهه‌نگی",
+        "frequency": 1
+    },
+    {
+        "entry": "له‌كوێ",
+        "frequency": 1
+    },
+    {
+        "entry": "كوڕی",
+        "frequency": 1
+    },
+    {
+        "entry": "وه‌ستاشه‌فێ",
+        "frequency": 1
+    },
+    {
+        "entry": "وردەئاهه‌نگێ",
+        "frequency": 1
+    },
+    {
+        "entry": "كه‌",
+        "frequency": 1
+    },
+    {
+        "entry": "فه‌رمووت",
+        "frequency": 1
+    },
+    {
+        "entry": "ها",
+        "frequency": 1
+    },
+    {
+        "entry": "وه‌لای",
+        "frequency": 1
+    },
+    {
+        "entry": "وه‌ستاژنه‌",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕێشانی",
+        "frequency": 1
+    },
+    {
+        "entry": "ژنتا",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕەتاندووە",
+        "frequency": 1
+    },
+    {
+        "entry": "سەرسمی",
+        "frequency": 1
+    },
+    {
+        "entry": "جەرگی",
+        "frequency": 1
+    },
+    {
+        "entry": "پساندووە",
+        "frequency": 1
+    },
+    {
+        "entry": "ھێند",
+        "frequency": 1
+    },
+    {
+        "entry": "سەختە",
+        "frequency": 1
+    },
+    {
+        "entry": "‌قەحبەیە",
+        "frequency": 1
+    },
+    {
+        "entry": "دەربەندی",
+        "frequency": 1
+    },
+    {
+        "entry": "بێچارەیەی",
+        "frequency": 1
+    },
+    {
+        "entry": "خشاندووە",
+        "frequency": 1
+    },
+    {
+        "entry": "پەراسووی",
+        "frequency": 1
+    },
+    {
+        "entry": "شکاندووە",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەتۆش",
+        "frequency": 1
+    },
+    {
+        "entry": "تەماتە",
+        "frequency": 1
+    },
+    {
+        "entry": "سواری",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەمەش",
+        "frequency": 1
+    },
+    {
+        "entry": "ببی",
+        "frequency": 1
+    },
+    {
+        "entry": "خراپە",
+        "frequency": 1
+    },
+    {
+        "entry": "سەقەت",
+        "frequency": 1
+    },
+    {
+        "entry": "ماندوووە",
+        "frequency": 1
+    },
+    {
+        "entry": "کەڵبەت",
+        "frequency": 1
+    },
+    {
+        "entry": "بێسوودە",
+        "frequency": 1
+    },
+    {
+        "entry": "عەف‌عه‌فت",
+        "frequency": 1
+    },
+    {
+        "entry": "پیری",
+        "frequency": 1
+    },
+    {
+        "entry": "دووتای",
+        "frequency": 1
+    },
+    {
+        "entry": "کردووی",
+        "frequency": 1
+    },
+    {
+        "entry": "شانت",
+        "frequency": 1
+    },
+    {
+        "entry": "خەفاندووە",
+        "frequency": 1
+    },
+    {
+        "entry": "کوردییە",
+        "frequency": 1
+    },
+    {
+        "entry": "کێرمی",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەکەی",
+        "frequency": 1
+    },
+    {
+        "entry": "قۆڕەقۆڕە",
+        "frequency": 1
+    },
+    {
+        "entry": "ھیچە",
+        "frequency": 1
+    },
+    {
+        "entry": "تڕاندووە",
+        "frequency": 1
+    },
+    {
+        "entry": "مەتڵەبە",
+        "frequency": 1
+    },
+    {
+        "entry": "وەگەرنە",
+        "frequency": 1
+    },
+    {
+        "entry": "تاقی",
+        "frequency": 1
+    },
+    {
+        "entry": "پردی",
+        "frequency": 1
+    },
+    {
+        "entry": "خاسسە",
+        "frequency": 1
+    },
+    {
+        "entry": "داچەقاندووە",
+        "frequency": 1
+    },
+    {
+        "entry": "دێی",
+        "frequency": 1
+    },
+    {
+        "entry": "زەبەللـه‌حی",
+        "frequency": 1
+    },
+    {
+        "entry": "تسعینی",
+        "frequency": 1
+    },
+    {
+        "entry": "پاڵ",
+        "frequency": 1
+    },
+    {
+        "entry": "تاوی",
+        "frequency": 1
+    },
+    {
+        "entry": "داوەشاندووە",
+        "frequency": 1
+    },
+    {
+        "entry": "کوونی",
+        "frequency": 1
+    },
+    {
+        "entry": "کوڕی",
+        "frequency": 1
+    },
+    {
+        "entry": "بێنه‌",
+        "frequency": 1
+    },
+    {
+        "entry": "نەزمەوە",
+        "frequency": 1
+    },
+    {
+        "entry": "زۆری",
+        "frequency": 1
+    },
+    {
+        "entry": "نەداوە",
+        "frequency": 1
+    },
+    {
+        "entry": "ملەکێری",
+        "frequency": 1
+    },
+    {
+        "entry": "تەقاندووە",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕ‌ەزا",
+        "frequency": 1
+    },
+    {
+        "entry": "داخت",
+        "frequency": 1
+    },
+    {
+        "entry": "ساڵێکە",
+        "frequency": 1
+    },
+    {
+        "entry": "وه‌",
+        "frequency": 1
+    },
+    {
+        "entry": "دووه‌",
+        "frequency": 1
+    },
+    {
+        "entry": "کێرم",
+        "frequency": 1
+    },
+    {
+        "entry": "پەرێشانە",
+        "frequency": 1
+    },
+    {
+        "entry": "موخلیسەکەت",
+        "frequency": 1
+    },
+    {
+        "entry": "چۆنە",
+        "frequency": 1
+    },
+    {
+        "entry": "چۆن",
+        "frequency": 1
+    },
+    {
+        "entry": "مەحسووبە",
+        "frequency": 1
+    },
+    {
+        "entry": "کۆنەکەت",
+        "frequency": 1
+    },
+    {
+        "entry": "عەجەبا",
+        "frequency": 1
+    },
+    {
+        "entry": "مردووە",
+        "frequency": 1
+    },
+    {
+        "entry": "کوشتەی",
+        "frequency": 1
+    },
+    {
+        "entry": "تۆیە",
+        "frequency": 1
+    },
+    {
+        "entry": "ئۆباڵی",
+        "frequency": 1
+    },
+    {
+        "entry": "بەو",
+        "frequency": 1
+    },
+    {
+        "entry": "ملەت",
+        "frequency": 1
+    },
+    {
+        "entry": "دەڵێی",
+        "frequency": 1
+    },
+    {
+        "entry": "نێرکەکاردووە",
+        "frequency": 1
+    },
+    {
+        "entry": "عەمدەن",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەڵێم",
+        "frequency": 1
+    },
+    {
+        "entry": "موراعاتی",
+        "frequency": 1
+    },
+    {
+        "entry": "دەکەم",
+        "frequency": 1
+    },
+    {
+        "entry": "وەرنە",
+        "frequency": 1
+    },
+    {
+        "entry": "دەمێکە",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕۆحی",
+        "frequency": 1
+    },
+    {
+        "entry": "جەننەت",
+        "frequency": 1
+    },
+    {
+        "entry": "سپاردووە",
+        "frequency": 1
+    },
+    {
+        "entry": "درۆ",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەکەم",
+        "frequency": 1
+    },
+    {
+        "entry": "کفن",
+        "frequency": 1
+    },
+    {
+        "entry": "دفنی",
+        "frequency": 1
+    },
+    {
+        "entry": "شانە",
+        "frequency": 1
+    },
+    {
+        "entry": "خەنە",
+        "frequency": 1
+    },
+    {
+        "entry": "حەمامی",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕەحمەتی",
+        "frequency": 1
+    },
+    {
+        "entry": "حەرامە",
+        "frequency": 1
+    },
+    {
+        "entry": "سوێندی",
+        "frequency": 1
+    },
+    {
+        "entry": "خواردووە",
+        "frequency": 1
+    },
+    {
+        "entry": "ئێستەش",
+        "frequency": 1
+    },
+    {
+        "entry": "کراسی",
+        "frequency": 1
+    },
+    {
+        "entry": "چڵکنە",
+        "frequency": 1
+    },
+    {
+        "entry": "کوڵکنە",
+        "frequency": 1
+    },
+    {
+        "entry": "دێوەڵووکە",
+        "frequency": 1
+    },
+    {
+        "entry": "تووکی",
+        "frequency": 1
+    },
+    {
+        "entry": "بستێ",
+        "frequency": 1
+    },
+    {
+        "entry": "ھاتووە",
+        "frequency": 1
+    },
+    {
+        "entry": "سەگرمە",
+        "frequency": 1
+    },
+    {
+        "entry": "ژێر",
+        "frequency": 1
+    },
+    {
+        "entry": "کوڕکەیا",
+        "frequency": 1
+    },
+    {
+        "entry": "بچێ",
+        "frequency": 1
+    },
+    {
+        "entry": "لاقەمەلێکی",
+        "frequency": 1
+    },
+    {
+        "entry": "پیاچووە",
+        "frequency": 1
+    },
+    {
+        "entry": "مەعبەری",
+        "frequency": 1
+    },
+    {
+        "entry": "دوبری",
+        "frequency": 1
+    },
+    {
+        "entry": "دیهلیزی",
+        "frequency": 1
+    },
+    {
+        "entry": "یاتاغی",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەشقیایە",
+        "frequency": 1
+    },
+    {
+        "entry": "گوزەرگاھی",
+        "frequency": 1
+    },
+    {
+        "entry": "ئۆردووە",
+        "frequency": 1
+    },
+    {
+        "entry": "شێعرێ",
+        "frequency": 1
+    },
+    {
+        "entry": "چاکی",
+        "frequency": 1
+    },
+    {
+        "entry": "دەزانی",
+        "frequency": 1
+    },
+    {
+        "entry": "شیاکەیە",
+        "frequency": 1
+    },
+    {
+        "entry": "نەزمێ",
+        "frequency": 1
+    },
+    {
+        "entry": "بەیانی",
+        "frequency": 1
+    },
+    {
+        "entry": "دەفەرمووی",
+        "frequency": 1
+    },
+    {
+        "entry": "گوووە",
+        "frequency": 1
+    },
+    {
+        "entry": "ھەروەک",
+        "frequency": 1
+    },
+    {
+        "entry": "تسێ",
+        "frequency": 1
+    },
+    {
+        "entry": "جەوھەری",
+        "frequency": 1
+    },
+    {
+        "entry": "دەربخا",
+        "frequency": 1
+    },
+    {
+        "entry": "نامووسی",
+        "frequency": 1
+    },
+    {
+        "entry": "سەفیهانە",
+        "frequency": 1
+    },
+    {
+        "entry": "بردووە",
+        "frequency": 1
+    },
+    {
+        "entry": "شێعرە",
+        "frequency": 1
+    },
+    {
+        "entry": "بێفەڕانە",
+        "frequency": 1
+    },
+    {
+        "entry": "نابییە",
+        "frequency": 1
+    },
+    {
+        "entry": "مەکێشە",
+        "frequency": 1
+    },
+    {
+        "entry": "ئائینە",
+        "frequency": 1
+    },
+    {
+        "entry": "کاریی",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەرەستووە",
+        "frequency": 1
+    },
+    {
+        "entry": "لۆتیی",
+        "frequency": 1
+    },
+    {
+        "entry": "نیم",
+        "frequency": 1
+    },
+    {
+        "entry": "نێرەگای",
+        "frequency": 1
+    },
+    {
+        "entry": "پیرەبنە",
+        "frequency": 1
+    },
+    {
+        "entry": "گوڵچین»ی",
+        "frequency": 1
+    },
+    {
+        "entry": "ئوندەر",
+        "frequency": 1
+    },
+    {
+        "entry": "دیدن",
+        "frequency": 1
+    },
+    {
+        "entry": "نازانی",
+        "frequency": 1
+    },
+    {
+        "entry": "کوێیە",
+        "frequency": 1
+    },
+    {
+        "entry": "لۆتیاتی",
+        "frequency": 1
+    },
+    {
+        "entry": "قۆرییە",
+        "frequency": 1
+    },
+    {
+        "entry": "ھەموویان",
+        "frequency": 1
+    },
+    {
+        "entry": "دەگێن",
+        "frequency": 1
+    },
+    {
+        "entry": "دەڵێ",
+        "frequency": 1
+    },
+    {
+        "entry": "تینم",
+        "frequency": 1
+    },
+    {
+        "entry": "نەنه‌",
+        "frequency": 1
+    },
+    {
+        "entry": "له‌وێ",
+        "frequency": 1
+    },
+    {
+        "entry": "پێم",
+        "frequency": 1
+    },
+    {
+        "entry": "وترا",
+        "frequency": 1
+    },
+    {
+        "entry": "شوکرییه‌",
+        "frequency": 1
+    },
+    {
+        "entry": "خەرجی",
+        "frequency": 1
+    },
+    {
+        "entry": "شۆخ",
+        "frequency": 1
+    },
+    {
+        "entry": "شەنگە",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەڵێی",
+        "frequency": 1
+    },
+    {
+        "entry": "ژنە",
+        "frequency": 1
+    },
+    {
+        "entry": "حیزی",
+        "frequency": 1
+    },
+    {
+        "entry": "خەڵکی",
+        "frequency": 1
+    },
+    {
+        "entry": "سنە",
+        "frequency": 1
+    },
+    {
+        "entry": "بەدیعەی",
+        "frequency": 1
+    },
+    {
+        "entry": "بنتی",
+        "frequency": 1
+    },
+    {
+        "entry": "بەکراوای",
+        "frequency": 1
+    },
+    {
+        "entry": "بێچواو",
+        "frequency": 1
+    },
+    {
+        "entry": "دووریت",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕۆڕۆ",
+        "frequency": 1
+    },
+    {
+        "entry": "میحنەتی",
+        "frequency": 1
+    },
+    {
+        "entry": "غەمدا",
+        "frequency": 1
+    },
+    {
+        "entry": "دەستەئەژنۆ",
+        "frequency": 1
+    },
+    {
+        "entry": "ماچێ",
+        "frequency": 1
+    },
+    {
+        "entry": "دەرمانی",
+        "frequency": 1
+    },
+    {
+        "entry": "کوشتەکەت",
+        "frequency": 1
+    },
+    {
+        "entry": "جانا",
+        "frequency": 1
+    },
+    {
+        "entry": "سەراسەر",
+        "frequency": 1
+    },
+    {
+        "entry": "عالەمت",
+        "frequency": 1
+    },
+    {
+        "entry": "خستۆتە",
+        "frequency": 1
+    },
+    {
+        "entry": "حیرەت",
+        "frequency": 1
+    },
+    {
+        "entry": "پەری",
+        "frequency": 1
+    },
+    {
+        "entry": "نەیدی",
+        "frequency": 1
+    },
+    {
+        "entry": "عەرعەر",
+        "frequency": 1
+    },
+    {
+        "entry": "ترنج",
+        "frequency": 1
+    },
+    {
+        "entry": "سێو",
+        "frequency": 1
+    },
+    {
+        "entry": "لیمۆ",
+        "frequency": 1
+    },
+    {
+        "entry": "ھیلاکم",
+        "frequency": 1
+    },
+    {
+        "entry": "فیرقەتت",
+        "frequency": 1
+    },
+    {
+        "entry": "نەشئەی",
+        "frequency": 1
+    },
+    {
+        "entry": "شەرابی",
+        "frequency": 1
+    },
+    {
+        "entry": "وەسڵەتی",
+        "frequency": 1
+    },
+    {
+        "entry": "میقرازی",
+        "frequency": 1
+    },
+    {
+        "entry": "غەمی",
+        "frequency": 1
+    },
+    {
+        "entry": "کۆتا",
+        "frequency": 1
+    },
+    {
+        "entry": "بووە",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕشتەی",
+        "frequency": 1
+    },
+    {
+        "entry": "حەیاتی",
+        "frequency": 1
+    },
+    {
+        "entry": "جەوابی",
+        "frequency": 1
+    },
+    {
+        "entry": "ھای",
+        "frequency": 1
+    },
+    {
+        "entry": "یاھۆ",
+        "frequency": 1
+    },
+    {
+        "entry": "لقا",
+        "frequency": 1
+    },
+    {
+        "entry": "فتادەی",
+        "frequency": 1
+    },
+    {
+        "entry": "گەردابی",
+        "frequency": 1
+    },
+    {
+        "entry": "مەشەققەت",
+        "frequency": 1
+    },
+    {
+        "entry": "ئوممێدی",
+        "frequency": 1
+    },
+    {
+        "entry": "نسیبی",
+        "frequency": 1
+    },
+    {
+        "entry": "ھیچ",
+        "frequency": 1
+    },
+    {
+        "entry": "نەیدیوە",
+        "frequency": 1
+    },
+    {
+        "entry": "ساحیب",
+        "frequency": 1
+    },
+    {
+        "entry": "ئیلاھی",
+        "frequency": 1
+    },
+    {
+        "entry": "ببن",
+        "frequency": 1
+    },
+    {
+        "entry": "جوملە",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕەقبیان",
+        "frequency": 1
+    },
+    {
+        "entry": "دەمێ",
+        "frequency": 1
+    },
+    {
+        "entry": "سەگ",
+        "frequency": 1
+    },
+    {
+        "entry": "چاری",
+        "frequency": 1
+    },
+    {
+        "entry": "نان",
+        "frequency": 1
+    },
+    {
+        "entry": "دەرزییە",
+        "frequency": 1
+    },
+    {
+        "entry": "کونەندەی",
+        "frequency": 1
+    },
+    {
+        "entry": "تووشی",
+        "frequency": 1
+    },
+    {
+        "entry": "قامەت",
+        "frequency": 1
+    },
+    {
+        "entry": "سەروی",
+        "frequency": 1
+    },
+    {
+        "entry": "بوستانە",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕوخ",
+        "frequency": 1
+    },
+    {
+        "entry": "ماھی",
+        "frequency": 1
+    },
+    {
+        "entry": "تابانە",
+        "frequency": 1
+    },
+    {
+        "entry": "عیسا",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەمیری",
+        "frequency": 1
+    },
+    {
+        "entry": "جەمعی",
+        "frequency": 1
+    },
+    {
+        "entry": "خووبانە",
+        "frequency": 1
+    },
+    {
+        "entry": "گەردن",
+        "frequency": 1
+    },
+    {
+        "entry": "ئاھوویی",
+        "frequency": 1
+    },
+    {
+        "entry": "چینە",
+        "frequency": 1
+    },
+    {
+        "entry": "کاکۆڵ",
+        "frequency": 1
+    },
+    {
+        "entry": "موشکینە",
+        "frequency": 1
+    },
+    {
+        "entry": "نەسلی",
+        "frequency": 1
+    },
+    {
+        "entry": "ئادەمە",
+        "frequency": 1
+    },
+    {
+        "entry": "جوملەی",
+        "frequency": 1
+    },
+    {
+        "entry": "غیلمانە",
+        "frequency": 1
+    },
+    {
+        "entry": "پەشێواوە",
+        "frequency": 1
+    },
+    {
+        "entry": "عوزاری",
+        "frequency": 1
+    },
+    {
+        "entry": "حاشیەی",
+        "frequency": 1
+    },
+    {
+        "entry": "دەرکی",
+        "frequency": 1
+    },
+    {
+        "entry": "مەعنییی",
+        "frequency": 1
+    },
+    {
+        "entry": "خەتتی",
+        "frequency": 1
+    },
+    {
+        "entry": "داماو",
+        "frequency": 1
+    },
+    {
+        "entry": "حەیرانە",
+        "frequency": 1
+    },
+    {
+        "entry": "عەجایب",
+        "frequency": 1
+    },
+    {
+        "entry": "موعجیزێکم",
+        "frequency": 1
+    },
+    {
+        "entry": "جانانە",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەحمەر",
+        "frequency": 1
+    },
+    {
+        "entry": "بنەفشەزار",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕەیحانە",
+        "frequency": 1
+    },
+    {
+        "entry": "نەخچیری",
+        "frequency": 1
+    },
+    {
+        "entry": "موھەییا",
+        "frequency": 1
+    },
+    {
+        "entry": "تیر",
+        "frequency": 1
+    },
+    {
+        "entry": "ئافەتی",
+        "frequency": 1
+    },
+    {
+        "entry": "جانە",
+        "frequency": 1
+    },
+    {
+        "entry": "شۆخی",
+        "frequency": 1
+    },
+    {
+        "entry": "نەفحەی",
+        "frequency": 1
+    },
+    {
+        "entry": "موشکینی",
+        "frequency": 1
+    },
+    {
+        "entry": "سەڕسەڕی",
+        "frequency": 1
+    },
+    {
+        "entry": "نیسیانە",
+        "frequency": 1
+    },
+    {
+        "entry": "سیاھی",
+        "frequency": 1
+    },
+    {
+        "entry": "حەجەر",
+        "frequency": 1
+    },
+    {
+        "entry": "وایە",
+        "frequency": 1
+    },
+    {
+        "entry": "عالەمێ",
+        "frequency": 1
+    },
+    {
+        "entry": "موشتاقە",
+        "frequency": 1
+    },
+    {
+        "entry": "دینی",
+        "frequency": 1
+    },
+    {
+        "entry": "نەزاکەت",
+        "frequency": 1
+    },
+    {
+        "entry": "نەونیھالێکە",
+        "frequency": 1
+    },
+    {
+        "entry": "سەمەن",
+        "frequency": 1
+    },
+    {
+        "entry": "بەھەشتی",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕەشک",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەدا",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەندامی",
+        "frequency": 1
+    },
+    {
+        "entry": "سیمینی",
+        "frequency": 1
+    },
+    {
+        "entry": "زەخمی",
+        "frequency": 1
+    },
+    {
+        "entry": "چەشم",
+        "frequency": 1
+    },
+    {
+        "entry": "کەوێ",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕواوە",
+        "frequency": 1
+    },
+    {
+        "entry": "سونبولی",
+        "frequency": 1
+    },
+    {
+        "entry": "خۆشبۆ",
+        "frequency": 1
+    },
+    {
+        "entry": "سنگی",
+        "frequency": 1
+    },
+    {
+        "entry": "نەسرینی",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەمیر",
+        "frequency": 1
+    },
+    {
+        "entry": "ئیبنی",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەمیرە",
+        "frequency": 1
+    },
+    {
+        "entry": "حوسنا",
+        "frequency": 1
+    },
+    {
+        "entry": "میرانە",
+        "frequency": 1
+    },
+    {
+        "entry": "دین",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەکا",
+        "frequency": 1
+    },
+    {
+        "entry": "یەغما",
+        "frequency": 1
+    },
+    {
+        "entry": "شیرینی",
+        "frequency": 1
+    },
+    {
+        "entry": "تەماشاگاھی",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕوخساری",
+        "frequency": 1
+    },
+    {
+        "entry": "مویەسسەر",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەمن",
+        "frequency": 1
+    },
+    {
+        "entry": "بکەم",
+        "frequency": 1
+    },
+    {
+        "entry": "کەوسەر",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕەنگینی",
+        "frequency": 1
+    },
+    {
+        "entry": "عوششاقە",
+        "frequency": 1
+    },
+    {
+        "entry": "گوفتی",
+        "frequency": 1
+    },
+    {
+        "entry": "بمکا",
+        "frequency": 1
+    },
+    {
+        "entry": "فیدایی",
+        "frequency": 1
+    },
+    {
+        "entry": "بلوورینی",
+        "frequency": 1
+    },
+    {
+        "entry": "غایی",
+        "frequency": 1
+    },
+    {
+        "entry": "سەھمی",
+        "frequency": 1
+    },
+    {
+        "entry": "نیگاھی",
+        "frequency": 1
+    },
+    {
+        "entry": "کەوکەبەیی",
+        "frequency": 1
+    },
+    {
+        "entry": "حوسنە",
+        "frequency": 1
+    },
+    {
+        "entry": "نادرە",
+        "frequency": 1
+    },
+    {
+        "entry": "کوژە",
+        "frequency": 1
+    },
+    {
+        "entry": "ئازارە",
+        "frequency": 1
+    },
+    {
+        "entry": "جەفاجۆ",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕێژە",
+        "frequency": 1
+    },
+    {
+        "entry": "شەرەنگێزە",
+        "frequency": 1
+    },
+    {
+        "entry": "خەنجەرە",
+        "frequency": 1
+    },
+    {
+        "entry": "جەبرەن",
+        "frequency": 1
+    },
+    {
+        "entry": "خەمی",
+        "frequency": 1
+    },
+    {
+        "entry": "بەنگە",
+        "frequency": 1
+    },
+    {
+        "entry": "ببێ",
+        "frequency": 1
+    },
+    {
+        "entry": "زێب",
+        "frequency": 1
+    },
+    {
+        "entry": "زەڕ",
+        "frequency": 1
+    },
+    {
+        "entry": "زێوەرە",
+        "frequency": 1
+    },
+    {
+        "entry": "مەیلی",
+        "frequency": 1
+    },
+    {
+        "entry": "گاندانت",
+        "frequency": 1
+    },
+    {
+        "entry": "حازرم",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕێ",
+        "frequency": 1
+    },
+    {
+        "entry": "شوێنی",
+        "frequency": 1
+    },
+    {
+        "entry": "خاسسی",
+        "frequency": 1
+    },
+    {
+        "entry": "میوانت",
+        "frequency": 1
+    },
+    {
+        "entry": "شیعرەکەت",
+        "frequency": 1
+    },
+    {
+        "entry": "مەزموونی",
+        "frequency": 1
+    },
+    {
+        "entry": "عیجزی",
+        "frequency": 1
+    },
+    {
+        "entry": "تیایە",
+        "frequency": 1
+    },
+    {
+        "entry": "چاوەکەم",
+        "frequency": 1
+    },
+    {
+        "entry": "شەرتە",
+        "frequency": 1
+    },
+    {
+        "entry": "نەیھێڵم",
+        "frequency": 1
+    },
+    {
+        "entry": "ھەچی",
+        "frequency": 1
+    },
+    {
+        "entry": "خارشتی",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕانت",
+        "frequency": 1
+    },
+    {
+        "entry": "هەجوی",
+        "frequency": 1
+    },
+    {
+        "entry": "جەمیل",
+        "frequency": 1
+    },
+    {
+        "entry": "سدقی",
+        "frequency": 1
+    },
+    {
+        "entry": "زەهاوی",
+        "frequency": 1
+    },
+    {
+        "entry": "دەکات",
+        "frequency": 1
+    },
+    {
+        "entry": "ژن",
+        "frequency": 1
+    },
+    {
+        "entry": "یەکێ",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەمگوت",
+        "frequency": 1
+    },
+    {
+        "entry": "ئاخ",
+        "frequency": 1
+    },
+    {
+        "entry": "دەس",
+        "frequency": 1
+    },
+    {
+        "entry": "جادووە",
+        "frequency": 1
+    },
+    {
+        "entry": "قوڕی",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەمجا",
+        "frequency": 1
+    },
+    {
+        "entry": "دووە",
+        "frequency": 1
+    },
+    {
+        "entry": "دولبەری",
+        "frequency": 1
+    },
+    {
+        "entry": "شارە",
+        "frequency": 1
+    },
+    {
+        "entry": "یەغماگەری",
+        "frequency": 1
+    },
+    {
+        "entry": "ھۆش",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕەھزەنی",
+        "frequency": 1
+    },
+    {
+        "entry": "دینن",
+        "frequency": 1
+    },
+    {
+        "entry": "سیمین",
+        "frequency": 1
+    },
+    {
+        "entry": "زەقەن",
+        "frequency": 1
+    },
+    {
+        "entry": "گوڵ",
+        "frequency": 1
+    },
+    {
+        "entry": "بەدەنن",
+        "frequency": 1
+    },
+    {
+        "entry": "کەبک",
+        "frequency": 1
+    },
+    {
+        "entry": "خەرامن",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕاحەتی",
+        "frequency": 1
+    },
+    {
+        "entry": "عوششاقی",
+        "frequency": 1
+    },
+    {
+        "entry": "حەزینن",
+        "frequency": 1
+    },
+    {
+        "entry": "فیلجوملە",
+        "frequency": 1
+    },
+    {
+        "entry": "تازە",
+        "frequency": 1
+    },
+    {
+        "entry": "نیھالی",
+        "frequency": 1
+    },
+    {
+        "entry": "ئیرەمن",
+        "frequency": 1
+    },
+    {
+        "entry": "لالەیی",
+        "frequency": 1
+    },
+    {
+        "entry": "فیردەوسی",
+        "frequency": 1
+    },
+    {
+        "entry": "بەرینن",
+        "frequency": 1
+    },
+    {
+        "entry": "ئاھوو",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕەوشن",
+        "frequency": 1
+    },
+    {
+        "entry": "تاوسی",
+        "frequency": 1
+    },
+    {
+        "entry": "زەڕڕین",
+        "frequency": 1
+    },
+    {
+        "entry": "پەڕ",
+        "frequency": 1
+    },
+    {
+        "entry": "باڵن",
+        "frequency": 1
+    },
+    {
+        "entry": "دەستە",
+        "frequency": 1
+    },
+    {
+        "entry": "شەھرنشینن",
+        "frequency": 1
+    },
+    {
+        "entry": "جادوو",
+        "frequency": 1
+    },
+    {
+        "entry": "فسووندا",
+        "frequency": 1
+    },
+    {
+        "entry": "کەشمەکەشی",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕوویی",
+        "frequency": 1
+    },
+    {
+        "entry": "زەمینن",
+        "frequency": 1
+    },
+    {
+        "entry": "غونچەیی",
+        "frequency": 1
+    },
+    {
+        "entry": "لالەن",
+        "frequency": 1
+    },
+    {
+        "entry": "غیلمانی",
+        "frequency": 1
+    },
+    {
+        "entry": "بەھەشتن",
+        "frequency": 1
+    },
+    {
+        "entry": "ناز",
+        "frequency": 1
+    },
+    {
+        "entry": "کریشمە",
+        "frequency": 1
+    },
+    {
+        "entry": "بۆیی",
+        "frequency": 1
+    },
+    {
+        "entry": "خەم",
+        "frequency": 1
+    },
+    {
+        "entry": "قیمەت",
+        "frequency": 1
+    },
+    {
+        "entry": "ساحە",
+        "frequency": 1
+    },
+    {
+        "entry": "چینن",
+        "frequency": 1
+    },
+    {
+        "entry": "بورجی",
+        "frequency": 1
+    },
+    {
+        "entry": "تەماشا",
+        "frequency": 1
+    },
+    {
+        "entry": "قەمەر",
+        "frequency": 1
+    },
+    {
+        "entry": "شەمس",
+        "frequency": 1
+    },
+    {
+        "entry": "نوجوومن",
+        "frequency": 1
+    },
+    {
+        "entry": "لەتافەت",
+        "frequency": 1
+    },
+    {
+        "entry": "دوڕڕی",
+        "frequency": 1
+    },
+    {
+        "entry": "سەمینن",
+        "frequency": 1
+    },
+    {
+        "entry": "ناوک",
+        "frequency": 1
+    },
+    {
+        "entry": "مژە",
+        "frequency": 1
+    },
+    {
+        "entry": "کەمانن",
+        "frequency": 1
+    },
+    {
+        "entry": "کەمینن",
+        "frequency": 1
+    },
+    {
+        "entry": "فاریغ",
+        "frequency": 1
+    },
+    {
+        "entry": "چەند",
+        "frequency": 1
+    },
+    {
+        "entry": "لاشەیی",
+        "frequency": 1
+    },
+    {
+        "entry": "دووسەد",
+        "frequency": 1
+    },
+    {
+        "entry": "خەستە",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەنینن",
+        "frequency": 1
+    },
+    {
+        "entry": "دەستیان",
+        "frequency": 1
+    },
+    {
+        "entry": "تیغی",
+        "frequency": 1
+    },
+    {
+        "entry": "دەبانە",
+        "frequency": 1
+    },
+    {
+        "entry": "حازر",
+        "frequency": 1
+    },
+    {
+        "entry": "ئامادە",
+        "frequency": 1
+    },
+    {
+        "entry": "کینن",
+        "frequency": 1
+    },
+    {
+        "entry": "ساوە",
+        "frequency": 1
+    },
+    {
+        "entry": "بەچانە",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەوسافی",
+        "frequency": 1
+    },
+    {
+        "entry": "نەمامن",
+        "frequency": 1
+    },
+    {
+        "entry": "دەردت",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەدەنێ",
+        "frequency": 1
+    },
+    {
+        "entry": "تەفرە",
+        "frequency": 1
+    },
+    {
+        "entry": "مەڵێ",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕامن",
+        "frequency": 1
+    },
+    {
+        "entry": "دۆستی",
+        "frequency": 1
+    },
+    {
+        "entry": "وەفادار",
+        "frequency": 1
+    },
+    {
+        "entry": "دوژمنی",
+        "frequency": 1
+    },
+    {
+        "entry": "خونخوار",
+        "frequency": 1
+    },
+    {
+        "entry": "نەرم",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەبێ",
+        "frequency": 1
+    },
+    {
+        "entry": "گاھێک",
+        "frequency": 1
+    },
+    {
+        "entry": "سەختی",
+        "frequency": 1
+    },
+    {
+        "entry": "کەلامن",
+        "frequency": 1
+    },
+    {
+        "entry": "غەمگین",
+        "frequency": 1
+    },
+    {
+        "entry": "مەبە",
+        "frequency": 1
+    },
+    {
+        "entry": "نەک",
+        "frequency": 1
+    },
+    {
+        "entry": "وەفایان",
+        "frequency": 1
+    },
+    {
+        "entry": "مەعلوومە",
+        "frequency": 1
+    },
+    {
+        "entry": "تاقمە",
+        "frequency": 1
+    },
+    {
+        "entry": "تاسی",
+        "frequency": 1
+    },
+    {
+        "entry": "حەمامن",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕوون",
+        "frequency": 1
+    },
+    {
+        "entry": "کاغەز",
+        "frequency": 1
+    },
+    {
+        "entry": "زمانن",
+        "frequency": 1
+    },
+    {
+        "entry": "خامە",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕەش",
+        "frequency": 1
+    },
+    {
+        "entry": "مەرەکەب",
+        "frequency": 1
+    },
+    {
+        "entry": "خارج",
+        "frequency": 1
+    },
+    {
+        "entry": "نیقامن",
+        "frequency": 1
+    },
+    {
+        "entry": "کەسە",
+        "frequency": 1
+    },
+    {
+        "entry": "دانایە",
+        "frequency": 1
+    },
+    {
+        "entry": "سەرفی",
+        "frequency": 1
+    },
+    {
+        "entry": "نەزەر",
+        "frequency": 1
+    },
+    {
+        "entry": "کا",
+        "frequency": 1
+    },
+    {
+        "entry": "بەر",
+        "frequency": 1
+    },
+    {
+        "entry": "پشتانە",
+        "frequency": 1
+    },
+    {
+        "entry": "تامن",
+        "frequency": 1
+    },
+    {
+        "entry": "لەم",
+        "frequency": 1
+    },
+    {
+        "entry": "عەسرە",
+        "frequency": 1
+    },
+    {
+        "entry": "سەرت",
+        "frequency": 1
+    },
+    {
+        "entry": "سوڕ",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەمانە",
+        "frequency": 1
+    },
+    {
+        "entry": "وەفادا",
+        "frequency": 1
+    },
+    {
+        "entry": "چەنێ",
+        "frequency": 1
+    },
+    {
+        "entry": "عەھد",
+        "frequency": 1
+    },
+    {
+        "entry": "دەوامن",
+        "frequency": 1
+    },
+    {
+        "entry": "چاوم",
+        "frequency": 1
+    },
+    {
+        "entry": "دێ",
+        "frequency": 1
+    },
+    {
+        "entry": "فرمێسکی",
+        "frequency": 1
+    },
+    {
+        "entry": "ژینم",
+        "frequency": 1
+    },
+    {
+        "entry": "بێزارە",
+        "frequency": 1
+    },
+    {
+        "entry": "کوللی",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەشکی",
+        "frequency": 1
+    },
+    {
+        "entry": "جیسم",
+        "frequency": 1
+    },
+    {
+        "entry": "وەرە",
+        "frequency": 1
+    },
+    {
+        "entry": "حاڵم",
+        "frequency": 1
+    },
+    {
+        "entry": "فیدات",
+        "frequency": 1
+    },
+    {
+        "entry": "مەلەک",
+        "frequency": 1
+    },
+    {
+        "entry": "سیما",
+        "frequency": 1
+    },
+    {
+        "entry": "یادی",
+        "frequency": 1
+    },
+    {
+        "entry": "سیاھ",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕوومەتت",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەووەڵ",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەسیرت",
+        "frequency": 1
+    },
+    {
+        "entry": "بووم",
+        "frequency": 1
+    },
+    {
+        "entry": "تەحقیق",
+        "frequency": 1
+    },
+    {
+        "entry": "سەنەم",
+        "frequency": 1
+    },
+    {
+        "entry": "زانیم",
+        "frequency": 1
+    },
+    {
+        "entry": "دەمکوژی",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕەحمت",
+        "frequency": 1
+    },
+    {
+        "entry": "شەیداییم",
+        "frequency": 1
+    },
+    {
+        "entry": "سینەمدا",
+        "frequency": 1
+    },
+    {
+        "entry": "کەوتۆتە",
+        "frequency": 1
+    },
+    {
+        "entry": "داییم",
+        "frequency": 1
+    },
+    {
+        "entry": "دێنن",
+        "frequency": 1
+    },
+    {
+        "entry": "بەبێ",
+        "frequency": 1
+    },
+    {
+        "entry": "داروویی",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕێی",
+        "frequency": 1
+    },
+    {
+        "entry": "پێغەمبەرا",
+        "frequency": 1
+    },
+    {
+        "entry": "بڵێن",
+        "frequency": 1
+    },
+    {
+        "entry": "تەرکی",
+        "frequency": 1
+    },
+    {
+        "entry": "مردن",
+        "frequency": 1
+    },
+    {
+        "entry": "لەباتی",
+        "frequency": 1
+    },
+    {
+        "entry": "مەیتم",
+        "frequency": 1
+    },
+    {
+        "entry": "دەرگای",
+        "frequency": 1
+    },
+    {
+        "entry": "کەوتم",
+        "frequency": 1
+    },
+    {
+        "entry": "شیوەن",
+        "frequency": 1
+    },
+    {
+        "entry": "گریان",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕۆح",
+        "frequency": 1
+    },
+    {
+        "entry": "بێزارم",
+        "frequency": 1
+    },
+    {
+        "entry": "بەرھەم",
+        "frequency": 1
+    },
+    {
+        "entry": "بکوژێ",
+        "frequency": 1
+    },
+    {
+        "entry": "شمشێری",
+        "frequency": 1
+    },
+    {
+        "entry": "برۆ",
+        "frequency": 1
+    },
+    {
+        "entry": "موژگان",
+        "frequency": 1
+    },
+    {
+        "entry": "کوشت",
+        "frequency": 1
+    },
+    {
+        "entry": "یارە",
+        "frequency": 1
+    },
+    {
+        "entry": "چارم",
+        "frequency": 1
+    },
+    {
+        "entry": "نەفەس",
+        "frequency": 1
+    },
+    {
+        "entry": "ھاوارم",
+        "frequency": 1
+    },
+    {
+        "entry": "دەسپێرن",
+        "frequency": 1
+    },
+    {
+        "entry": "خاکی",
+        "frequency": 1
+    },
+    {
+        "entry": "لەحد",
+        "frequency": 1
+    },
+    {
+        "entry": "بیمارم",
+        "frequency": 1
+    },
+    {
+        "entry": "عاشقی",
+        "frequency": 1
+    },
+    {
+        "entry": "یارم",
+        "frequency": 1
+    },
+    {
+        "entry": "مەنفەعەت",
+        "frequency": 1
+    },
+    {
+        "entry": "زاری",
+        "frequency": 1
+    },
+    {
+        "entry": "مەڕێژە",
+        "frequency": 1
+    },
+    {
+        "entry": "قەترەی",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەسرینت",
+        "frequency": 1
+    },
+    {
+        "entry": "سستە",
+        "frequency": 1
+    },
+    {
+        "entry": "گەردنی",
+        "frequency": 1
+    },
+    {
+        "entry": "نیگارت",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕوشتەیی",
+        "frequency": 1
+    },
+    {
+        "entry": "ژینت",
+        "frequency": 1
+    },
+    {
+        "entry": "موژگانت",
+        "frequency": 1
+    },
+    {
+        "entry": "نیشانەی",
+        "frequency": 1
+    },
+    {
+        "entry": "خوێنینت",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەپرسن",
+        "frequency": 1
+    },
+    {
+        "entry": "دینت",
+        "frequency": 1
+    },
+    {
+        "entry": "قادر",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەسرینم",
+        "frequency": 1
+    },
+    {
+        "entry": "تەم",
+        "frequency": 1
+    },
+    {
+        "entry": "مەفتوون",
+        "frequency": 1
+    },
+    {
+        "entry": "نە",
+        "frequency": 1
+    },
+    {
+        "entry": "هەر",
+        "frequency": 1
+    },
+    {
+        "entry": "تەنیا",
+        "frequency": 1
+    },
+    {
+        "entry": "هەموو",
+        "frequency": 1
+    },
+    {
+        "entry": "لایە",
+        "frequency": 1
+    },
+    {
+        "entry": "فولکی",
+        "frequency": 1
+    },
+    {
+        "entry": "شێواوە",
+        "frequency": 1
+    },
+    {
+        "entry": "نەگبەت",
+        "frequency": 1
+    },
+    {
+        "entry": "ماهـ",
+        "frequency": 1
+    },
+    {
+        "entry": "پەروینم",
+        "frequency": 1
+    },
+    {
+        "entry": "هەزار",
+        "frequency": 1
+    },
+    {
+        "entry": "خۆزگەم",
+        "frequency": 1
+    },
+    {
+        "entry": "دووری",
+        "frequency": 1
+    },
+    {
+        "entry": "بەڵا",
+        "frequency": 1
+    },
+    {
+        "entry": "فرسەتدا",
+        "frequency": 1
+    },
+    {
+        "entry": "منیش",
+        "frequency": 1
+    },
+    {
+        "entry": "هەڵدێم",
+        "frequency": 1
+    },
+    {
+        "entry": "تەڵخیی",
+        "frequency": 1
+    },
+    {
+        "entry": "دێنێ",
+        "frequency": 1
+    },
+    {
+        "entry": "داڕوویی",
+        "frequency": 1
+    },
+    {
+        "entry": "نەبوو",
+        "frequency": 1
+    },
+    {
+        "entry": "باتی",
+        "frequency": 1
+    },
+    {
+        "entry": "قەبرم",
+        "frequency": 1
+    },
+    {
+        "entry": "عاشقەی",
+        "frequency": 1
+    },
+    {
+        "entry": "یارەم",
+        "frequency": 1
+    },
+    {
+        "entry": "دەپرسن",
+        "frequency": 1
+    },
+    {
+        "entry": "ئیعتیقاداتم",
+        "frequency": 1
+    },
+    {
+        "entry": "سالم",
+        "frequency": 1
+    },
+    {
+        "entry": "دیوانی",
+        "frequency": 1
+    },
+    {
+        "entry": "لاپەڕە",
+        "frequency": 1
+    },
+    {
+        "entry": "لێکۆڵینەوەی",
+        "frequency": 1
+    },
+    {
+        "entry": "محەممەد",
+        "frequency": 1
+    },
+    {
+        "entry": "مستەفا",
+        "frequency": 1
+    },
+    {
+        "entry": "حەمەبۆر",
+        "frequency": 1
+    },
+    {
+        "entry": "چاپی",
+        "frequency": 1
+    },
+    {
+        "entry": "یەکەم",
+        "frequency": 1
+    },
+    {
+        "entry": "هەولێر",
+        "frequency": 1
+    },
+    {
+        "entry": "بڵاوکراوەی",
+        "frequency": 1
+    },
+    {
+        "entry": "ئاراس",
+        "frequency": 1
+    },
+    {
+        "entry": "بادی",
+        "frequency": 1
+    },
+    {
+        "entry": "سەباوە",
+        "frequency": 1
+    },
+    {
+        "entry": "لاوە",
+        "frequency": 1
+    },
+    {
+        "entry": "بڵاوە",
+        "frequency": 1
+    },
+    {
+        "entry": "سیەھ",
+        "frequency": 1
+    },
+    {
+        "entry": "عاشقە",
+        "frequency": 1
+    },
+    {
+        "entry": "دانە",
+        "frequency": 1
+    },
+    {
+        "entry": "چون",
+        "frequency": 1
+    },
+    {
+        "entry": "بەیتە",
+        "frequency": 1
+    },
+    {
+        "entry": "موقابیل",
+        "frequency": 1
+    },
+    {
+        "entry": "نەعلی",
+        "frequency": 1
+    },
+    {
+        "entry": "فەرەسی",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕشکی",
+        "frequency": 1
+    },
+    {
+        "entry": "مەھ",
+        "frequency": 1
+    },
+    {
+        "entry": "قورسی",
+        "frequency": 1
+    },
+    {
+        "entry": "ھەتاوە",
+        "frequency": 1
+    },
+    {
+        "entry": "مەنعم",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەر",
+        "frequency": 1
+    },
+    {
+        "entry": "وەحشی",
+        "frequency": 1
+    },
+    {
+        "entry": "بادییە",
+        "frequency": 1
+    },
+    {
+        "entry": "تەی",
+        "frequency": 1
+    },
+    {
+        "entry": "کەم",
+        "frequency": 1
+    },
+    {
+        "entry": "ھۆشم",
+        "frequency": 1
+    },
+    {
+        "entry": "سەردا",
+        "frequency": 1
+    },
+    {
+        "entry": "قەدەر",
+        "frequency": 1
+    },
+    {
+        "entry": "زەڕڕە",
+        "frequency": 1
+    },
+    {
+        "entry": "زۆر",
+        "frequency": 1
+    },
+    {
+        "entry": "شۆر",
+        "frequency": 1
+    },
+    {
+        "entry": "شەڕە",
+        "frequency": 1
+    },
+    {
+        "entry": "شەھیدانە",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕێگە",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕژاوە",
+        "frequency": 1
+    },
+    {
+        "entry": "عەرزت",
+        "frequency": 1
+    },
+    {
+        "entry": "ئه‌گێم",
+        "frequency": 1
+    },
+    {
+        "entry": "قەوچە",
+        "frequency": 1
+    },
+    {
+        "entry": "ماکەر",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەکەیت",
+        "frequency": 1
+    },
+    {
+        "entry": "گوێت",
+        "frequency": 1
+    },
+    {
+        "entry": "وه‌ها",
+        "frequency": 1
+    },
+    {
+        "entry": "ئێشی",
+        "frequency": 1
+    },
+    {
+        "entry": "مێخی",
+        "frequency": 1
+    },
+    {
+        "entry": "سابیق",
+        "frequency": 1
+    },
+    {
+        "entry": "چاوتی",
+        "frequency": 1
+    },
+    {
+        "entry": "قەحبە",
+        "frequency": 1
+    },
+    {
+        "entry": "که‌وا",
+        "frequency": 1
+    },
+    {
+        "entry": "بارەھا",
+        "frequency": 1
+    },
+    {
+        "entry": "کوزیم",
+        "frequency": 1
+    },
+    {
+        "entry": "پەق",
+        "frequency": 1
+    },
+    {
+        "entry": "نەوەک",
+        "frequency": 1
+    },
+    {
+        "entry": "ئه‌مجاره‌",
+        "frequency": 1
+    },
+    {
+        "entry": "ھەتک",
+        "frequency": 1
+    },
+    {
+        "entry": "پەتک",
+        "frequency": 1
+    },
+    {
+        "entry": "شۆڕشێ",
+        "frequency": 1
+    },
+    {
+        "entry": "بەرپا",
+        "frequency": 1
+    },
+    {
+        "entry": "کەرکووکت",
+        "frequency": 1
+    },
+    {
+        "entry": "سەربەسەر",
+        "frequency": 1
+    },
+    {
+        "entry": "ئیفنا",
+        "frequency": 1
+    },
+    {
+        "entry": "پێچاڵی",
+        "frequency": 1
+    },
+    {
+        "entry": "جۆڵا",
+        "frequency": 1
+    },
+    {
+        "entry": "قەلعەیی",
+        "frequency": 1
+    },
+    {
+        "entry": "خەیبەر",
+        "frequency": 1
+    },
+    {
+        "entry": "فیعلەن",
+        "frequency": 1
+    },
+    {
+        "entry": "داکی",
+        "frequency": 1
+    },
+    {
+        "entry": "گای",
+        "frequency": 1
+    },
+    {
+        "entry": "سڕڕ‌ە‌",
+        "frequency": 1
+    },
+    {
+        "entry": "ئیفشا",
+        "frequency": 1
+    },
+    {
+        "entry": "ئه‌که‌ی",
+        "frequency": 1
+    },
+    {
+        "entry": "ھەجووم",
+        "frequency": 1
+    },
+    {
+        "entry": "به‌ڵێ",
+        "frequency": 1
+    },
+    {
+        "entry": "شێخی",
+        "frequency": 1
+    },
+    {
+        "entry": "پوورە",
+        "frequency": 1
+    },
+    {
+        "entry": "بەسیە",
+        "frequency": 1
+    },
+    {
+        "entry": "نەتگێم",
+        "frequency": 1
+    },
+    {
+        "entry": "سمتت",
+        "frequency": 1
+    },
+    {
+        "entry": "دایکە",
+        "frequency": 1
+    },
+    {
+        "entry": "کێرخۆرت",
+        "frequency": 1
+    },
+    {
+        "entry": "هەواڵەی",
+        "frequency": 1
+    },
+    {
+        "entry": "سووری",
+        "frequency": 1
+    },
+    {
+        "entry": "سەرئەبڵەق",
+        "frequency": 1
+    },
+    {
+        "entry": "نییەتم",
+        "frequency": 1
+    },
+    {
+        "entry": "دەفعەیێ",
+        "frequency": 1
+    },
+    {
+        "entry": "خۆمت",
+        "frequency": 1
+    },
+    {
+        "entry": "پیاده‌م",
+        "frequency": 1
+    },
+    {
+        "entry": "باز",
+        "frequency": 1
+    },
+    {
+        "entry": "نەقسە",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەمسالی",
+        "frequency": 1
+    },
+    {
+        "entry": "گوێ",
+        "frequency": 1
+    },
+    {
+        "entry": "شاھبازی",
+        "frequency": 1
+    },
+    {
+        "entry": "شکارئەندازی",
+        "frequency": 1
+    },
+    {
+        "entry": "شاھیم",
+        "frequency": 1
+    },
+    {
+        "entry": "دەڵێن",
+        "frequency": 1
+    },
+    {
+        "entry": "ئاھەنگی",
+        "frequency": 1
+    },
+    {
+        "entry": "جەنگی",
+        "frequency": 1
+    },
+    {
+        "entry": "سەرگەڕ",
+        "frequency": 1
+    },
+    {
+        "entry": "لەقڵەق",
+        "frequency": 1
+    },
+    {
+        "entry": "ژنی",
+        "frequency": 1
+    },
+    {
+        "entry": "فاحیشه‌",
+        "frequency": 1
+    },
+    {
+        "entry": "پێت",
+        "frequency": 1
+    },
+    {
+        "entry": "ھەڵبڕی",
+        "frequency": 1
+    },
+    {
+        "entry": "نەء",
+        "frequency": 1
+    },
+    {
+        "entry": "خەیری",
+        "frequency": 1
+    },
+    {
+        "entry": "چاوێکی",
+        "frequency": 1
+    },
+    {
+        "entry": "سا",
+        "frequency": 1
+    },
+    {
+        "entry": "بگرە",
+        "frequency": 1
+    },
+    {
+        "entry": "بۆت",
+        "frequency": 1
+    },
+    {
+        "entry": "بێمە",
+        "frequency": 1
+    },
+    {
+        "entry": "مەیدانی",
+        "frequency": 1
+    },
+    {
+        "entry": "مەساف",
+        "frequency": 1
+    },
+    {
+        "entry": "شەرته‌",
+        "frequency": 1
+    },
+    {
+        "entry": "ھیچت",
+        "frequency": 1
+    },
+    {
+        "entry": "نەڵێم",
+        "frequency": 1
+    },
+    {
+        "entry": "گونت",
+        "frequency": 1
+    },
+    {
+        "entry": "کۆنەحیزی",
+        "frequency": 1
+    },
+    {
+        "entry": "لێم",
+        "frequency": 1
+    },
+    {
+        "entry": "شاعیری",
+        "frequency": 1
+    },
+    {
+        "entry": "خوشکت",
+        "frequency": 1
+    },
+    {
+        "entry": "ئەیوانی",
+        "frequency": 1
+    },
+    {
+        "entry": "کیسرا",
+        "frequency": 1
+    },
+    {
+        "entry": "ھەروەکو",
+        "frequency": 1
+    },
+    {
+        "entry": "مەستی»م",
+        "frequency": 1
+    },
+    {
+        "entry": "فەردێ",
+        "frequency": 1
+    },
+    {
+        "entry": "خوا",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕۆحم",
+        "frequency": 1
+    },
+    {
+        "entry": "به‌رێ",
+        "frequency": 1
+    },
+    {
+        "entry": "مولحیدی",
+        "frequency": 1
+    },
+    {
+        "entry": "کافرمەزەب",
+        "frequency": 1
+    },
+    {
+        "entry": "مولحەق",
+        "frequency": 1
+    },
+    {
+        "entry": "دەزانم",
+        "frequency": 1
+    },
+    {
+        "entry": "خشتەی",
+        "frequency": 1
+    },
+    {
+        "entry": "بردوویی",
+        "frequency": 1
+    },
+    {
+        "entry": "سوود",
+        "frequency": 1
+    },
+    {
+        "entry": "سەییدە",
+        "frequency": 1
+    },
+    {
+        "entry": "سەیید",
+        "frequency": 1
+    },
+    {
+        "entry": "سووکی",
+        "frequency": 1
+    },
+    {
+        "entry": "دەرحەق",
+        "frequency": 1
+    },
+    {
+        "entry": "پێی",
+        "frequency": 1
+    },
+    {
+        "entry": "مونتەبیهـ",
+        "frequency": 1
+    },
+    {
+        "entry": "گووم",
+        "frequency": 1
+    },
+    {
+        "entry": "بەس",
+        "frequency": 1
+    },
+    {
+        "entry": "بخۆ",
+        "frequency": 1
+    },
+    {
+        "entry": "سلێمانی",
+        "frequency": 1
+    },
+    {
+        "entry": "کافری",
+        "frequency": 1
+    },
+    {
+        "entry": "عەھدە",
+        "frequency": 1
+    },
+    {
+        "entry": "کردوومە",
+        "frequency": 1
+    },
+    {
+        "entry": "خزمەت",
+        "frequency": 1
+    },
+    {
+        "entry": "ڕەزادا",
+        "frequency": 1
+    },
+    {
+        "entry": "ورچەکوێر",
+        "frequency": 1
+    },
+    {
+        "entry": "نەیخەمە",
+        "frequency": 1
+    },
+    {
+        "entry": "لنگی",
+        "frequency": 1
+    },
+    {
+        "entry": "ئێرەق",
+        "frequency": 1
+    }
+]
