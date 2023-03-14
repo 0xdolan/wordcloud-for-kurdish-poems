@@ -204,7 +204,7 @@ if __name__ == "__main__":
     # check if directories exists, if not create them and run the generate_wordclouds function
     if not os.path.exists(WORDCLOUDS):
         os.mkdir(WORDCLOUDS)
-        # generate_wordclouds()
+        generate_wordclouds()
 
     # check if directories exists, if not create them and run the generate_wordclouds_for_all_poems function
     if not os.path.exists(f"{WORDCLOUDS}/all_poems"):
