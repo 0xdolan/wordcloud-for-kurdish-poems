@@ -16,7 +16,7 @@ GITHUB_FONT_PATH = "https://github.com/rastikerdar/vazirmatn/blob/master/fonts/t
 if not os.path.exists("fonts"):
     os.mkdir("fonts")
     rprint("Downloading Vazirmatn-Regular.ttf from github...")
-    os.system(f"wget -O ./fonts/Vazirmatn-Regular.ttf {GITHUB_FONT_PATH}")
+    os.system(f"wget -q -O ./fonts/Vazirmatn-Regular.ttf {GITHUB_FONT_PATH}")
 
 
 VAZIRMATN_FONT_PATH = os.path.join(os.getcwd(), "fonts/Vazirmatn-Regular.ttf")

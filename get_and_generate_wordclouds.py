@@ -88,7 +88,7 @@ def generate_frequencies():
     # generate word frequency for all poems
     if os.path.exists("./all_poems.txt"):
         rprint("working on word frequency for all poems")
-        with open(os.path.join(root, file), "r", encoding="utf-8") as rf:
+        with open(f"{CURRENT_DIR}/all_poems.txt", "r", encoding="utf-8") as rf:
             poems = rf.read().split()
 
         # clear words
