@@ -53,7 +53,6 @@ def get_word_frequency(wordlist):
 
 
 CONCAT_AS_ONE_FILE = os.path.join(ALLEKOK, "concat_as_one_file")
-
 WORDCLOUDS = os.path.join(ALLEKOK, "wordclouds")
 WORD_FREQUENCIES = os.path.join(ALLEKOK, "word_frequencies")
 
@@ -88,7 +87,7 @@ def generate_frequencies():
                         )
 
     # generate word frequency for all poems
-    if os.path.exists("./all_poems.txt"):
+    if os.path.exists(f"{ALLEKOK}/all_poems.txt"):
         rprint("working on word frequency for all poems")
         with open(f"{ALLEKOK}/all_poems.txt", "r", encoding="utf-8") as rf:
             poems = rf.read().split()
