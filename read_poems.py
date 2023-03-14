@@ -65,5 +65,23 @@ def extract_poem(poem):
                             wf.write(line + "\n")
 
 
+def concat_all_poems():
+    """Read all poems and concat them into one file"""
+
+    for root, dirs, files in track(os.walk("./concat_as_one_file")):
+        rprint(f"Reading files from {root}...")
+        rprint(f"Found {len(files)} files")
+        all_poems = "./all_poems.txt"
+        for file in files:
+            rprint(f"Reading {file}...")
+            with open(
+                f"{CONCAT_AS_ONE_FILE}/{file}", "r", encoding="utf-8"
+            ) as rf, open(all_poems, "a", encoding="utf-8") as wf:
+                for line in rf:
+                    wf.write(line + "\n")
+    rprint(f"Done writing all poems to {all_poems}")
+
+
 if __name__ == "__main__":
     extract_poem(poem_full_paths)
+    concat_all_poems()
