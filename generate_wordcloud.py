@@ -29,6 +29,9 @@ def generate_wordcloud(text, filename="wordcloud.png"):
         height=800,
         background_color="white",
     )
+    if isinstance(text, list):
+        text = " ".join(text)
+
     wc.generate(text)
 
     plt.axis("off")

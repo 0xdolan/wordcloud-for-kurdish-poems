@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import os
+import subprocess
 
 from rich import print as rprint
 from rich.progress import track
@@ -37,8 +38,6 @@ def get_all_files(directory):
 
 
 def extract_poem(poem):
-    if not os.path.exists(CONCAT_AS_ONE_FILE):
-        os.mkdir(CONCAT_AS_ONE_FILE)
     for poet in poets:
         for path in track(poem_full_paths, description=f"Reading {poet}s' poems..."):
             base_name = os.path.basename(path)
@@ -78,10 +77,27 @@ def concat_all_poems():
                 f"{CONCAT_AS_ONE_FILE}/{file}", "r", encoding="utf-8"
             ) as rf, open(all_poems, "a", encoding="utf-8") as wf:
                 for line in rf:
+                    # remove empty lines and lines with only whitespace
+                    if not line.strip() or line.strip() == "":
+                        continue
+
                     wf.write(line + "\n")
     rprint(f"Done writing all poems to {all_poems}")
 
 
 if __name__ == "__main__":
-    extract_poem(poem_full_paths)
-    concat_all_poems()
+    if not os.path.exists(CONCAT_AS_ONE_FILE):
+        os.mkdir(CONCAT_AS_ONE_FILE)
+        extract_poem(poem_full_paths)
+    else:
+        rprint("Concat_as_one_file directory exists, skipping...")
+
+    if not os.path.exists("./all_poems.txt"):
+        concat_all_poems()
+    else:
+        rprint("all_poems.txt exists, skipping...")
+
+    rprint("Cleaning up all_poems.txt...")
+    subprocess.run(["chmod", "+x", "./clean.sh"])
+    subprocess.run(["./clean.sh"])
+    rprint("Done!")
