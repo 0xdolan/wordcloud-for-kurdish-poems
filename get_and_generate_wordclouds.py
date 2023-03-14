@@ -160,8 +160,8 @@ def generate_wordclouds():
 
 def generate_wordclouds_for_all_poems():
     # check ./all_poems.txt exists
-    if os.path.exists("./all_poems.txt"):
-        rprint("working on WordCloud for all poems")
+    if os.path.exists(f"{ALLEKOK}/all_poems.txt"):
+        rprint("Working on WordCloud for all poems...")
 
         all_poems_dir = f"{WORDCLOUDS}/all_poems"
 

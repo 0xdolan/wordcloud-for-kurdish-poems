@@ -104,7 +104,11 @@ if __name__ == "__main__":
     else:
         rprint("all_poems.txt exists, skipping...")
 
-    rprint("Cleaning up all_poems.txt...")
-    subprocess.run(["chmod", "+x", "./clean.sh"])
-    subprocess.run(["./clean.sh"])
-    rprint("Done!")
+    if os.path.exists(f"{ALLEKOK}/cleaned.txt"):
+        rprint("cleaned.txt exists, skipping...")
+    else:
+        rprint("Cleaning up all_poems.txt...")
+        subprocess.run(["chmod", "+x", "./clean.sh"])
+        subprocess.run(["./clean.sh"])
+
+rprint("Done!")
