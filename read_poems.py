@@ -15,7 +15,9 @@ CONCAT_AS_ONE_FILE = os.path.join(ALLEKOK, "concat_as_one_file")
 # check if allekok-poems directory exists else clone from github
 if not os.path.exists(ALLEKOK_DIR):
     rprint("Cloning allekok-poems from github...")
-    os.system("git clone https://github.com/allekok/allekok-poems.git")
+    os.system(
+        f"git clone https://github.com/allekok/allekok-poems.git {ALLEKOK}/allekok-poems"
+    )
     rprint("Done cloning allekok-poems")
 
 # get list of directories inside allekok-poems
@@ -68,10 +70,10 @@ def extract_poem(poem):
 def concat_all_poems():
     """Read all poems and concat them into one file"""
 
-    for root, dirs, files in track(os.walk("./concat_as_one_file")):
+    for root, dirs, files in track(os.walk(f"{ALLEKOK}/concat_as_one_file")):
         rprint(f"Reading files from {root}...")
         rprint(f"Found {len(files)} files")
-        all_poems = "./all_poems.txt"
+        all_poems = f"{ALLEKOK}/all_poems.txt"
         for file in files:
             rprint(f"Reading {file}...")
             with open(

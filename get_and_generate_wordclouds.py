@@ -12,6 +12,8 @@ from rich.progress import track
 from generate_wordcloud import generate_wordcloud
 
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+ALLEKOK = os.path.join(CURRENT_DIR, "allekok")
+
 PUNCTUATION = string.punctuation + "،؛؟«»"
 DIGITS = string.digits + "۰۱۲۳۴۵۶۷۸۹" + "٠١٢٣٤٥٦٧٨٩"
 WHITESPACE = string.whitespace
@@ -50,9 +52,10 @@ def get_word_frequency(wordlist):
     return word_frequency_list
 
 
-CONCAT_AS_ONE_FILE = os.path.join(CURRENT_DIR, "concat_as_one_file")
-WORDCLOUDS = os.path.join(CURRENT_DIR, "wordclouds")
-WORD_FREQUENCIES = os.path.join(CURRENT_DIR, "word_frequencies")
+CONCAT_AS_ONE_FILE = os.path.join(ALLEKOK, "concat_as_one_file")
+
+WORDCLOUDS = os.path.join(ALLEKOK, "wordclouds")
+WORD_FREQUENCIES = os.path.join(ALLEKOK, "word_frequencies")
 
 
 def generate_frequencies():
@@ -87,7 +90,7 @@ def generate_frequencies():
     # generate word frequency for all poems
     if os.path.exists("./all_poems.txt"):
         rprint("working on word frequency for all poems")
-        with open(f"{CURRENT_DIR}/all_poems.txt", "r", encoding="utf-8") as rf:
+        with open(f"{ALLEKOK}/all_poems.txt", "r", encoding="utf-8") as rf:
             poems = rf.read().split()
 
         # clear words
@@ -95,7 +98,7 @@ def generate_frequencies():
 
         as_json = get_word_frequency(poems)
 
-        with open(f"{CURRENT_DIR}/all_poems.json", "w", encoding="utf-8") as wf:
+        with open(f"{ALLEKOK}/all_poems.json", "w", encoding="utf-8") as wf:
             json.dump(
                 as_json,
                 wf,
@@ -162,7 +165,7 @@ def generate_wordclouds_for_all_poems():
 
         all_poems_dir = f"{WORDCLOUDS}/all_poems"
 
-        with open(f"{CURRENT_DIR}/all_poems.txt", "r", encoding="utf-8") as rf:
+        with open(f"{ALLEKOK}/all_poems.txt", "r", encoding="utf-8") as rf:
             poems = rf.read().split()
 
         # clear words

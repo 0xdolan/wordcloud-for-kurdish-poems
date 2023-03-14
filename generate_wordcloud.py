@@ -20,7 +20,7 @@ if not os.path.exists(FONT_DIR):
     os.mkdir(FONT_DIR)
     rprint("Downloading Vazirmatn-Regular.ttf from github...")
     os.system(f"wget -q -O {FONT_DIR}/Vazirmatn-Regular.ttf {GITHUB_FONT_PATH}")
-
+    rprint("Done downloading Vazirmatn-Regular.ttf")
 
 VAZIRMATN_FONT_PATH = os.path.join(CURRENT_DIR, f"{FONT_DIR}/Vazirmatn-Regular.ttf")
 
