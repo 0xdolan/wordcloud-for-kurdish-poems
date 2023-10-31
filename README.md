@@ -21,6 +21,40 @@ harfbuzz
 libraqm
 ```
 
+Library/Package Installation:
+
+```yaml
+
+freetype:
+	1. git clone https://gitlab.freedesktop.org/freetype/freetype.git
+	2. standard builds with `configure`:
+		1. Depends on the following packages:
+			  * automake (1.10.1)
+			  * libtool (2.2.4)
+			  * autoconf (2.62)
+			  To resolve: apt install libtool autotools-dev automake
+		2. sh autogen.sh
+
+graphite2-1.3.14:
+	READ: https://www.metricfire.com/blog/how-to-install-and-configure-graphite-on-ubuntu/#Installing-Graphite-on-Ubuntu-1604
+	1. use docker: 
+		- docker run -d --name graphite --restart=always -p 81:80 -p 2003-2004:2003-2004 -p 2023-2024:2023-2024 -p 8125:8125/udp -p 8126:8126 graphiteapp/graphite-statsd
+
+harfbuzz:
+	READ: https://github.com/harfbuzz/harfbuzz/blob/main/BUILD.md
+	1. sudo apt install meson pkg-config ragel gtk-doc-tools gcc g++ libfreetype6-dev libglib2.0-dev libcairo2-dev 
+	2. git clone https://github.com/harfbuzz/harfbuzz
+	3. meson build && meson test -Cbuild
+
+libraqm:
+	1. sudo apt install libfreetype6-dev libharfbuzz-dev libfribidi-dev meson gtk-doc-tools
+		- FriBiDi
+			- git clone https://github.com/fribidi/fribidi
+			- sh autogen.sh
+	2. git clone https://github.com/HOST-Oman/libraqm
+	3. meson build && ninja -C build && ninja -C build install
+```
+
 Source of the used font _vazirmatn_ in this project:
 
 ```bash
