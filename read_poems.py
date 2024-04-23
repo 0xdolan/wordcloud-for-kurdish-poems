@@ -27,6 +27,24 @@ def get_all_files(directory_path):
     return all_files
 
 
+def clean_all_poems_concatenated(directory):
+    # Check if the input file exists
+    input_file = Path(directory) / "all_poems_concatenated.txt"
+    if input_file.is_file():
+        clean_script = CURRENT_DIR / "clean.sh"
+        clean_script.chmod(0o755)  # Ensure the script is executable = chmod +x clean.sh
+        # Run the cleaning script
+        rprint("Cleaning the concatinated poems...")
+        subprocess.run([clean_script])
+        rprint(
+            "The file has been successfully cleaned and saved as `all_poems_concatenated_cleaned.txt`."
+        )
+    else:
+        rprint(
+            f"Warning: File 'all_poems_concatenated.txt' not found in {directory}. Cleaning skipped."
+        )
+
+
 def normalized_text():
     data = []
     if POET_DATA_IN_JSON.is_dir():
@@ -52,18 +70,6 @@ def normalized_text():
                     )
                     texts.append(concat_text)
 
-                    # # Create a directory for each poet if it doesn't exist
-                    # poet_dir = ALLEKOK_DIR / "TXT_VERSIONS" / poet.replace(" ", "_")
-                    # poet_dir.mkdir(parents=True, exist_ok=True)
-
-                    # # Write the concatenated text to a text file
-                    # output_file = (
-                    #     poet_dir
-                    #     / f"{poet.replace(' ', '_')}_{book.replace(' ', '_')}.txt"
-                    # )
-                    # with open(output_file, "w", encoding="utf-8") as f:
-                    #     f.write(concat_text)
-
                     data.append(
                         {
                             "poet": poet,
@@ -75,28 +81,35 @@ def normalized_text():
     return data
 
 
-with open(ALLEKOK_DIR / "all_poems_concatenated.txt", "w", encoding="utf-8") as wf:
-    rprint("Consolidating all poems into a single file: `all_poems_concatenated.txt`")
-    for item in track(normalized_text(), "Processing..."):
-        wf.write(item.get("concat_text", ""))
+# Concatinate all poems related to each poet
+rprint("Concatinate all poems related to each poet")
+poem_data: dict = dict()
+for item in normalized_text():
+    poet_name = item.get("poet", "").strip().replace(" ", "_")
+    if poet_name not in poem_data:
+        poem_data[poet_name] = []
+    poem_data[poet_name].append(item.get("concat_text", ""))
+
+for poet_name, poems in track(poem_data.items(), "Processing..."):
+    # Create a directory for each poet if it doesn't exist
+    poet_dir = ALLEKOK_DIR / Path("poet_data_in_TXT") / poet_name
+    poet_dir.mkdir(parents=True, exist_ok=True)
+
+    all_poems_concatenated = "\n".join(poems)
+    file_path = poet_dir / f"{poet_name}.txt"
+    if not Path(ALLEKOK_DIR / poet_dir).is_file():
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.write(all_poems_concatenated)
 
 
-def clean_all_poems_concatenated(directory):
-    # Check if the input file exists
-    input_file = directory / "all_poems_concatenated.txt"
-    if input_file.is_file():
-        clean_script = CURRENT_DIR / "clean.sh"
-        clean_script.chmod(0o755)  # Ensure the script is executable = chmod +x clean.sh
-        # Run the cleaning script
-        rprint("Cleaning the concatinated poems...")
-        subprocess.run([clean_script])
+# Concatinate all the poems into single one
+if not Path(ALLEKOK_DIR / "all_poems_concatenated.txt").is_file():
+    with open(ALLEKOK_DIR / "all_poems_concatenated.txt", "w", encoding="utf-8") as wf:
         rprint(
-            "The file has been successfully cleaned and saved as `all_poems_concatenated_cleaned.txt`."
+            "Consolidating all poems into a single file: `all_poems_concatenated.txt`"
         )
-    else:
-        rprint(
-            f"Warning: File 'all_poems_concatenated.txt' not found in {directory}. Cleaning skipped."
-        )
+        for item in track(normalized_text(), "Processing..."):
+            wf.write(item.get("concat_text", ""))
 
 
 if __name__ == "__main__":

@@ -64,8 +64,8 @@ for poet in poets_data:
     poet_poems_books = []
 
     poet_id = poet[0]
-    poet_name = poet[1]
-    poet_description = poet[-1]
+    poet_name = poet[1].strip()
+    poet_description = poet[-1].strip()
 
     # Create a folder for the current poet
     poet_folder_path = (
@@ -79,12 +79,12 @@ for poet in poets_data:
             if book_id == book[0]:
                 if book[-1] == poet_id:  # Check if the book belongs to the current poet
                     data = {
-                        "poet": poet_name,
-                        "poet_description": poet_description,
-                        "book": book[1],
-                        "poem_title": poem[1],
-                        "poem_description": poem[3],
-                        "poem_text": poem[2],
+                        "poet": poet_name.strip(),
+                        "poet_description": poet_description.strip(),
+                        "book": book[1].strip(),
+                        "poem_title": poem[1].strip(),
+                        "poem_description": poem[3].strip(),
+                        "poem_text": poem[2].strip(),
                     }
                     poet_poems_books.append(data)
 
