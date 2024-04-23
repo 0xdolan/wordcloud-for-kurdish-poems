@@ -1,114 +1,103 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+# Source of the Poems: https://github.com/allekok/allekok-poems.git
+
+import json
 import os
+import re
 import subprocess
+from pathlib import Path
 
 from rich import print as rprint
 from rich.progress import track
 
-CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-ALLEKOK = os.path.join(CURRENT_DIR, "allekok")
-ALLEKOK_DIR = os.path.join(ALLEKOK, "allekok-poems")
-CONCAT_AS_ONE_FILE = os.path.join(ALLEKOK, "concat_as_one_file")
-
-# check if allekok-poems directory exists else clone from github
-if not os.path.exists(ALLEKOK_DIR):
-    rprint("Cloning allekok-poems from github...")
-    os.system(
-        f"git clone https://github.com/allekok/allekok-poems.git {ALLEKOK}/allekok-poems"
-    )
-    rprint("Done cloning allekok-poems")
-
-# get list of directories inside allekok-poems
-poem_dirs = [f"{ALLEKOK_DIR}/{directory}" for directory in os.listdir(ALLEKOK_DIR)]
-
-# get list of poets
-poets = sorted([x for x in os.listdir(poem_dirs[6]) if not "index.html" in x])
-
-# get full path of each poem
-poem_full_paths = [os.path.join(poem_dirs[6], poem) for poem in poets]
-rprint(f"Read {len(poem_full_paths)} poems directories from {poem_dirs[6]}")
+CURRENT_DIR = Path(__file__).resolve().parent
+ALLEKOK_DIR = CURRENT_DIR / "allekok"
+CONCAT_AS_ONE_FILE = ALLEKOK_DIR / "concat_as_one_file"
+POET_DATA_IN_JSON = ALLEKOK_DIR / "poet_data_in_JSON"
 
 
-def get_all_files(directory):
-    file_list = []
-    for root, dirs, files in os.walk(directory):
-        for filename in files:
-            filepath = os.path.join(root, filename)
-            file_list.append(filepath)
-    return file_list
+def get_all_files(directory_path):
+    all_files = []
+    directory = Path(directory_path)
+    for file_path in directory.rglob("*"):
+        if file_path.is_file():
+            all_files.append(file_path)
+    return all_files
 
 
-def extract_poem(poem):
-    for poet in poets:
-        for path in track(poem_full_paths, description=f"Reading {poet}s' poems..."):
-            base_name = os.path.basename(path)
-            if poet == base_name:
-                for file_path in get_all_files(path):
-                    if file_path.endswith(".html"):
-                        continue
-                    with open(file_path, "r", encoding="utf-8") as rf, open(
-                        f"{CONCAT_AS_ONE_FILE}/{base_name}", "a", encoding="utf-8"
-                    ) as wf:
-                        for line in rf:
-                            if any(
-                                [
-                                    x in line
-                                    for x in [
-                                        "شاعیر:",
-                                        "کتێب:",
-                                        "سەرناو:",
-                                        "لەبارەی شیعر:",
-                                    ]
-                                ]
-                            ):
-                                continue
-                            wf.write(line + "\n")
+def normalized_text():
+    data = []
+    if POET_DATA_IN_JSON.is_dir():
+        # total_poets = len(list(POET_DATA_IN_JSON.iterdir()))
+        all_json_files = get_all_files(POET_DATA_IN_JSON)
+
+        for json_file in all_json_files:
+
+            # Load the JSON data from the file
+            with open(json_file, "r") as json_file:
+                file_data = json.load(json_file)
+                texts = []
+                for item in file_data:
+                    poet = item.get("poet", "")
+                    poet_description = item.get("poet_description", "")
+                    book = item.get("book", "")
+                    poem_title = item.get("poem_title", "")
+                    poem_description = item.get("poem_description", "")
+                    poem_text = item.get("poem_text", "")
+
+                    concat_text = (
+                        f"{book}\n{poem_title}\n{poem_description}\n{poem_text}"
+                    )
+                    texts.append(concat_text)
+
+                    # # Create a directory for each poet if it doesn't exist
+                    # poet_dir = ALLEKOK_DIR / "TXT_VERSIONS" / poet.replace(" ", "_")
+                    # poet_dir.mkdir(parents=True, exist_ok=True)
+
+                    # # Write the concatenated text to a text file
+                    # output_file = (
+                    #     poet_dir
+                    #     / f"{poet.replace(' ', '_')}_{book.replace(' ', '_')}.txt"
+                    # )
+                    # with open(output_file, "w", encoding="utf-8") as f:
+                    #     f.write(concat_text)
+
+                    data.append(
+                        {
+                            "poet": poet,
+                            "poet_description": poet_description,
+                            "total_poets": len(file_data),
+                            "concat_text": "\n".join(texts),
+                        }
+                    )
+    return data
 
 
-def concat_all_poems():
-    """Read all poems and concat them into one file"""
+with open(ALLEKOK_DIR / "all_poems_concatenated.txt", "w", encoding="utf-8") as wf:
+    rprint("Consolidating all poems into a single file: `all_poems_concatenated.txt`")
+    for item in track(normalized_text(), "Processing..."):
+        wf.write(item.get("concat_text", ""))
 
-    for root, dirs, files in track(os.walk(f"{ALLEKOK}/concat_as_one_file")):
-        rprint(f"Reading files from {root}...")
-        rprint(f"Found {len(files)} files")
-        all_poems = f"{ALLEKOK}/all_poems.txt"
-        for file in files:
-            rprint(f"Reading {file}...")
-            with open(
-                f"{CONCAT_AS_ONE_FILE}/{file}", "r", encoding="utf-8"
-            ) as rf, open(all_poems, "a", encoding="utf-8") as wf:
-                for line in rf:
-                    # remove empty lines and lines with only whitespace
-                    if not line.strip() or line.strip() == "":
-                        continue
 
-                    wf.write(line + "\n")
-    rprint(f"Done writing all poems to {all_poems}")
+def clean_all_poems_concatenated(directory):
+    # Check if the input file exists
+    input_file = directory / "all_poems_concatenated.txt"
+    if input_file.is_file():
+        clean_script = CURRENT_DIR / "clean.sh"
+        clean_script.chmod(0o755)  # Ensure the script is executable = chmod +x clean.sh
+        # Run the cleaning script
+        rprint("Cleaning the concatinated poems...")
+        subprocess.run([clean_script])
+        rprint(
+            "The file has been successfully cleaned and saved as `all_poems_concatenated_cleaned.txt`."
+        )
+    else:
+        rprint(
+            f"Warning: File 'all_poems_concatenated.txt' not found in {directory}. Cleaning skipped."
+        )
 
 
 if __name__ == "__main__":
-    # check if allekok directory exists, if not create it
-    if not os.path.exists("./allekok"):
-        os.mkdir("./allekok")
-
-    if not os.path.exists(CONCAT_AS_ONE_FILE):
-        os.mkdir(CONCAT_AS_ONE_FILE)
-        extract_poem(poem_full_paths)
-    else:
-        rprint("Concat_as_one_file directory exists, skipping...")
-
-    if not os.path.exists(f"{ALLEKOK}/all_poems.txt"):
-        concat_all_poems()
-    else:
-        rprint("all_poems.txt exists, skipping...")
-
-    if os.path.exists(f"{ALLEKOK}/cleaned.txt"):
-        rprint("cleaned.txt exists, skipping...")
-    else:
-        rprint("Cleaning up all_poems.txt...")
-        subprocess.run(["chmod", "+x", "./clean.sh"])
-        subprocess.run(["./clean.sh"])
-
-rprint("Done!")
+    clean_all_poems_concatenated(ALLEKOK_DIR)
