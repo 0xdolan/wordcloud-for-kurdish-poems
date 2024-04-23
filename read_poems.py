@@ -4,9 +4,7 @@
 # Source of the Poems: https://github.com/allekok/allekok-poems.git
 
 import json
-import os
 import re
-import subprocess
 from pathlib import Path
 
 from rich import print as rprint
@@ -27,30 +25,21 @@ def get_all_files(directory_path):
     return all_files
 
 
-def clean_all_poems_concatenated(directory):
-    # Check if the input file exists
-    input_file = Path(directory) / "all_poems_concatenated.txt"
-    if input_file.is_file():
-        clean_script = CURRENT_DIR / "clean.sh"
-        clean_script.chmod(0o755)  # Ensure the script is executable = chmod +x clean.sh
-        # Run the cleaning script
-        rprint("Cleaning the concatinated poems...")
-        subprocess.run([clean_script])
-        rprint(
-            "The file has been successfully cleaned and saved as `all_poems_concatenated_cleaned.txt`."
-        )
-    else:
-        rprint(
-            f"Warning: File 'all_poems_concatenated.txt' not found in {directory}. Cleaning skipped."
-        )
+def remove_patterns(text):
+    patterns = [
+        r"^$",
+        r"[\t\nـ*٭•+\-\=]+",
+        r"[۰١٢٣٤٥٦٧٨٩1234567890٠١٢٣٤٥٦٧٨٩\t\(\)\.]+",
+    ]
+    combined_pattern = re.compile("|".join(patterns), re.M)
+    cleaned_text = re.sub(combined_pattern, "", text)
+    return cleaned_text
 
 
 def normalized_text():
     data = []
     if POET_DATA_IN_JSON.is_dir():
-        # total_poets = len(list(POET_DATA_IN_JSON.iterdir()))
         all_json_files = get_all_files(POET_DATA_IN_JSON)
-
         for json_file in all_json_files:
 
             # Load the JSON data from the file
@@ -81,36 +70,38 @@ def normalized_text():
     return data
 
 
-# Concatinate all poems related to each poet
-rprint("Concatinate all poems related to each poet")
-poem_data: dict = dict()
-for item in normalized_text():
-    poet_name = item.get("poet", "").strip().replace(" ", "_")
-    if poet_name not in poem_data:
-        poem_data[poet_name] = []
-    poem_data[poet_name].append(item.get("concat_text", ""))
+def concat_to_one():
+    # Concatinate all poems related to each poet
+    rprint("Concatinate all poems related to each poet")
+    poem_data = dict()
+    for item in normalized_text():
+        poet_name = item.get("poet", "").strip().replace(" ", "_")
+        if poet_name not in poem_data:
+            poem_data[poet_name] = []
+        poem_data[poet_name].append(item.get("concat_text", ""))
 
-for poet_name, poems in track(poem_data.items(), "Processing..."):
-    # Create a directory for each poet if it doesn't exist
-    poet_dir = ALLEKOK_DIR / Path("poet_data_in_TXT") / poet_name
-    poet_dir.mkdir(parents=True, exist_ok=True)
+    for poet_name, poems in track(poem_data.items(), "Processing..."):
+        # Create a directory for each poet if it doesn't exist
+        poet_dir = ALLEKOK_DIR / Path("poet_data_in_TXT") / poet_name
+        poet_dir.mkdir(parents=True, exist_ok=True)
 
-    all_poems_concatenated = "\n".join(poems)
-    file_path = poet_dir / f"{poet_name}.txt"
-    if not Path(ALLEKOK_DIR / poet_dir).is_file():
-        with open(file_path, "w", encoding="utf-8") as f:
-            f.write(all_poems_concatenated)
+        all_poems_concatenated = remove_patterns("\n".join(poems))
+        file_path = poet_dir / f"{poet_name}.txt"
+        if not Path(ALLEKOK_DIR / poet_dir).is_file():
+            with open(file_path, "w", encoding="utf-8") as f:
+                f.write(all_poems_concatenated)
 
 
-# Concatinate all the poems into single one
-if not Path(ALLEKOK_DIR / "all_poems_concatenated.txt").is_file():
+def concat_for_each_poet():
+    # Concatinate all the poems into single one
     with open(ALLEKOK_DIR / "all_poems_concatenated.txt", "w", encoding="utf-8") as wf:
         rprint(
             "Consolidating all poems into a single file: `all_poems_concatenated.txt`"
         )
         for item in track(normalized_text(), "Processing..."):
-            wf.write(item.get("concat_text", ""))
+            wf.write(remove_patterns(item.get("concat_text", "")))
 
 
 if __name__ == "__main__":
-    clean_all_poems_concatenated(ALLEKOK_DIR)
+    concat_to_one()
+    concat_for_each_poet()
