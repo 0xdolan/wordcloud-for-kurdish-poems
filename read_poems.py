@@ -22,6 +22,10 @@ DIGITS = string.digits + "۰۱۲۳۴۵۶۷۸۹" + "٠١٢٣٤٥٦٧٨٩"
 WHITESPACE = string.whitespace
 
 
+def strip_implementation(text):
+    return text.strip(PUNCTUATION).strip(DIGITS).strip(WHITESPACE).strip()
+
+
 def get_all_files(directory_path):
     all_files = []
     directory = Path(directory_path)
@@ -33,13 +37,7 @@ def get_all_files(directory_path):
 
 def remove_patterns(text):
 
-    word = word.strip()
-    # remove digits
-    word = word.strip(DIGITS)
-    # remove punctuation
-    word = word.strip(PUNCTUATION)
-    # remove newlines
-    word = word.strip(WHITESPACE)
+    text = strip_implementation(text)
 
     patterns = [
         r"^$",
@@ -89,8 +87,10 @@ def concat_to_one():
     # Concatinate all poems related to each poet
     rprint("Concatinate all poems related to each poet")
     poem_data = dict()
+    count = 0
     for item in normalized_text():
-        poet_name = item.get("poet", "").strip().replace(" ", "_")
+        count += 1
+        poet_name = strip_implementation(item.get("poet", "")).replace(" ", "_")
         if poet_name not in poem_data:
             poem_data[poet_name] = []
         poem_data[poet_name].append(item.get("concat_text", ""))
@@ -106,6 +106,8 @@ def concat_to_one():
         if not Path(ALLEKOK_DIR / poet_dir).is_file():
             with open(file_path, "w", encoding="utf-8") as f:
                 f.write(all_poems_concatenated)
+
+    rprint(f"Total poem files: {count}")
 
 
 def concat_for_each_poet():

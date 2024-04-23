@@ -76,12 +76,8 @@ This will clone the allekok-poems from its repository, create word-frequency fil
 ## Result
 
 ```python
-117 poets
-341 directories
-10,658 poem files
-261,788 lines (after cleaning)
-1,849,262 words
-10,151,576 characters
+120 poets
+10,692 poem files
 ```
 
 The top five words used throughout all poems are:
