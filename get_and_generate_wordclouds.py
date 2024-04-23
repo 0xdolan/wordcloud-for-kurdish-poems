@@ -5,14 +5,15 @@ import json
 import os
 import string
 from collections import Counter
+from pathlib import Path
 
 from rich import print as rprint
 from rich.progress import track
 
 from generate_wordcloud import generate_wordcloud
 
-CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-ALLEKOK = os.path.join(CURRENT_DIR, "allekok")
+CURRENT_DIR = Path().cwd()
+ALLEKOK_DIR = CURRENT_DIR / "allekok"
 
 PUNCTUATION = string.punctuation + "،؛؟«»"
 DIGITS = string.digits + "۰۱۲۳۴۵۶۷۸۹" + "٠١٢٣٤٥٦٧٨٩"
@@ -52,9 +53,9 @@ def get_word_frequency(wordlist):
     return word_frequency_list
 
 
-CONCAT_AS_ONE_FILE = os.path.join(ALLEKOK, "concat_as_one_file")
-WORDCLOUDS = os.path.join(ALLEKOK, "wordclouds")
-WORD_FREQUENCIES = os.path.join(ALLEKOK, "word_frequencies")
+CONCAT_AS_ONE_FILE = ALLEKOK_DIR / "poet_data_in_TXT"
+WORDCLOUDS = ALLEKOK_DIR / "wordclouds"
+WORD_FREQUENCIES = ALLEKOK_DIR / "word_frequencies"
 
 
 def generate_frequencies():
@@ -87,9 +88,9 @@ def generate_frequencies():
                         )
 
     # generate word frequency for all poems
-    if os.path.exists(f"{ALLEKOK}/all_poems.txt"):
+    if os.path.exists(f"{ALLEKOK_DIR}/all_poems_concatenated"):
         rprint("working on word frequency for all poems")
-        with open(f"{ALLEKOK}/all_poems.txt", "r", encoding="utf-8") as rf:
+        with open(f"{ALLEKOK_DIR}/all_poems_concatenated", "r", encoding="utf-8") as rf:
             poems = rf.read().split()
 
         # clear words
@@ -97,7 +98,7 @@ def generate_frequencies():
 
         as_json = get_word_frequency(poems)
 
-        with open(f"{ALLEKOK}/all_poems.json", "w", encoding="utf-8") as wf:
+        with open(f"{ALLEKOK_DIR}/all_poems.json", "w", encoding="utf-8") as wf:
             json.dump(
                 as_json,
                 wf,
@@ -158,13 +159,13 @@ def generate_wordclouds():
 
 
 def generate_wordclouds_for_all_poems():
-    # check ./all_poems.txt exists
-    if os.path.exists(f"{ALLEKOK}/all_poems.txt"):
+    # check ./all_poems_concatenated exists
+    if os.path.exists(f"{ALLEKOK_DIR}/all_poems_concatenated"):
         rprint("Working on WordCloud for all poems...")
 
         all_poems_dir = f"{WORDCLOUDS}/all_poems"
 
-        with open(f"{ALLEKOK}/all_poems.txt", "r", encoding="utf-8") as rf:
+        with open(f"{ALLEKOK_DIR}/all_poems_concatenated", "r", encoding="utf-8") as rf:
             poems = rf.read().split()
 
         # clear words

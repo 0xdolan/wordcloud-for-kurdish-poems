@@ -61,7 +61,14 @@ Source of the used font _vazirmatn_ in this project:
 To generate word-cloud images, run the following commands:
 
 ```python
-python read_poems.py && python get_and_generate_wordclouds.py
+# First run `read_from_db.py` for generating JSON files
+python read_from_db.py
+
+# Later run `read_poems.py` for generating TXT files and concatinated txt file
+python read_poems.py
+
+# Finally Run `get_and_generate_wordclouds.py` for generating Kurdish word-clouds
+python get_and_generate_wordclouds.py
 ```
 
 This will clone the allekok-poems from its repository, create word-frequency files in json format, and generate word-cloud images for each poet with their names as directories for the photos and one for each poem separately.

@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import os
+from pathlib import Path
 
 import matplotlib
 import matplotlib.pyplot as plt
@@ -12,8 +13,11 @@ matplotlib.use("Agg")
 
 GITHUB_FONT_PATH = "https://github.com/rastikerdar/vazirmatn/blob/master/fonts/ttf/Vazirmatn-Regular.ttf?raw=true"
 
-CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-FONT_DIR = os.path.join(CURRENT_DIR, "allekok/fonts")
+
+CURRENT_DIR = Path().cwd()
+ALLEKOK_DIR = CURRENT_DIR / "allekok"
+FONT_DIR = ALLEKOK_DIR / "fonts"
+
 
 # if font directory is not exist, create it and download the font file from github
 if not os.path.exists(FONT_DIR):

@@ -5,6 +5,7 @@
 
 import json
 import re
+import string
 from pathlib import Path
 
 from rich import print as rprint
@@ -14,6 +15,11 @@ CURRENT_DIR = Path(__file__).resolve().parent
 ALLEKOK_DIR = CURRENT_DIR / "allekok"
 CONCAT_AS_ONE_FILE = ALLEKOK_DIR / "concat_as_one_file"
 POET_DATA_IN_JSON = ALLEKOK_DIR / "poet_data_in_JSON"
+
+
+PUNCTUATION = string.punctuation + "،؛؟«»"
+DIGITS = string.digits + "۰۱۲۳۴۵۶۷۸۹" + "٠١٢٣٤٥٦٧٨٩"
+WHITESPACE = string.whitespace
 
 
 def get_all_files(directory_path):
@@ -26,6 +32,15 @@ def get_all_files(directory_path):
 
 
 def remove_patterns(text):
+
+    word = word.strip()
+    # remove digits
+    word = word.strip(DIGITS)
+    # remove punctuation
+    word = word.strip(PUNCTUATION)
+    # remove newlines
+    word = word.strip(WHITESPACE)
+
     patterns = [
         r"^$",
         r"[\t\nـ*٭•+\-\=]+",
@@ -85,7 +100,8 @@ def concat_to_one():
         poet_dir = ALLEKOK_DIR / Path("poet_data_in_TXT") / poet_name
         poet_dir.mkdir(parents=True, exist_ok=True)
 
-        all_poems_concatenated = remove_patterns("\n".join(poems))
+        # all_poems_concatenated = remove_patterns("\n".join(poems))
+        all_poems_concatenated = "\n".join(poems)
         file_path = poet_dir / f"{poet_name}.txt"
         if not Path(ALLEKOK_DIR / poet_dir).is_file():
             with open(file_path, "w", encoding="utf-8") as f:
@@ -99,7 +115,8 @@ def concat_for_each_poet():
             "Consolidating all poems into a single file: `all_poems_concatenated.txt`"
         )
         for item in track(normalized_text(), "Processing..."):
-            wf.write(remove_patterns(item.get("concat_text", "")))
+            # wf.write(remove_patterns(item.get("concat_text", "")))
+            wf.write(item.get("concat_text", ""))
 
 
 if __name__ == "__main__":
