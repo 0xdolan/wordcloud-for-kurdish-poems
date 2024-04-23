@@ -89,8 +89,8 @@ def generate_frequencies():
                         )
 
     # generate word frequency for all poems
-    if os.path.exists(f"{ALLEKOK_DIR}/all_poems_concatenated.txt"):
-        rprint("Gwnwrating word frequency for all poems")
+    if Path(ALLEKOK_DIR / "all_poems_concatenated.txt").is_file():
+        rprint("Generating word frequency for all poems")
         with open(
             f"{ALLEKOK_DIR}/all_poems_concatenated.txt", "r", encoding="utf-8"
         ) as rf:
@@ -164,6 +164,7 @@ def generate_wordclouds_for_all_poems():
         with open(
             f"{ALLEKOK_DIR}/all_poems_concatenated.txt", "r", encoding="utf-8"
         ) as rf:
+            # poems = rf.read()[:1000].split()
             poems = rf.read().split()
 
         # clear words
@@ -198,7 +199,7 @@ def generate_wordclouds_for_all_poems():
 if __name__ == "__main__":
     # check if directories exists, if not create them and run the geneate_frequencies function
     WORD_FREQUENCIES.mkdir(parents=True, exist_ok=True)
-    generate_frequencies()
+    # generate_frequencies()
 
     # check if directories exists, if not create them and run the generate_wordclouds function
     WORDCLOUDS.mkdir(parents=True, exist_ok=True)

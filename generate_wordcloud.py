@@ -26,12 +26,14 @@ if not os.path.exists(FONT_DIR):
     os.system(f"wget -q -O {FONT_DIR}/Vazirmatn-Regular.ttf {GITHUB_FONT_PATH}")
     rprint("Done downloading Vazirmatn-Regular.ttf")
 
-VAZIRMATN_FONT_PATH = os.path.join(CURRENT_DIR, f"{FONT_DIR}/Vazirmatn-Regular.ttf")
+VAZIRMATN_FONT_PATH = FONT_DIR / "Vazirmatn-Regular.ttf"
+MANSHOOR_FONT_PATH = FONT_DIR / "Manshoor-Medium.ttf"
+MIKHAKFONT_PATH = FONT_DIR / "Mikhak-DS1-Regular.ttf"
 
 
-def generate_wordcloud(text, filename="wordcloud.png"):
+def generate_wordcloud(text, filename="wordcloud.png", font=VAZIRMATN_FONT_PATH):
     wc = WordCloud(
-        font_path=VAZIRMATN_FONT_PATH,
+        font_path=font,
         width=1600,
         height=800,
         background_color="white",
