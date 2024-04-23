@@ -15,6 +15,11 @@ from generate_wordcloud import generate_wordcloud
 CURRENT_DIR = Path().cwd()
 ALLEKOK_DIR = CURRENT_DIR / "allekok"
 
+POET_DATA_IN_TXT = ALLEKOK_DIR / "poet_data_in_TXT"
+WORDCLOUDS = ALLEKOK_DIR / "wordclouds"
+WORD_FREQUENCIES = ALLEKOK_DIR / "word_frequencies"
+
+
 PUNCTUATION = string.punctuation + "،؛؟«»"
 DIGITS = string.digits + "۰۱۲۳۴۵۶۷۸۹" + "٠١٢٣٤٥٦٧٨٩"
 WHITESPACE = string.whitespace
@@ -53,19 +58,14 @@ def get_word_frequency(wordlist):
     return word_frequency_list
 
 
-CONCAT_AS_ONE_FILE = ALLEKOK_DIR / "poet_data_in_TXT"
-WORDCLOUDS = ALLEKOK_DIR / "wordclouds"
-WORD_FREQUENCIES = ALLEKOK_DIR / "word_frequencies"
-
-
 def generate_frequencies():
-    if os.path.exists(CONCAT_AS_ONE_FILE):
-        # read all files inside CONCAT_AS_ONE_FILE directory
+    if os.path.exists(POET_DATA_IN_TXT):
+        # read all files inside POET_DATA_IN_TXT directory
         for root, dirs, files in track(
-            os.walk(CONCAT_AS_ONE_FILE), description="Reading files..."
+            os.walk(POET_DATA_IN_TXT), description="Reading files..."
         ):
             for file in files:
-                rprint(f"working on word frequency for {file}")
+                rprint(f"Generating word frequency for {file}")
 
                 with open(os.path.join(root, file), "r", encoding="utf-8") as rf:
                     poem = rf.read().split()
@@ -76,21 +76,24 @@ def generate_frequencies():
                     as_json = get_word_frequency(poem)
 
                     with open(
-                        f"{WORD_FREQUENCIES}/{file}.json", "w", encoding="utf-8"
+                        f"{WORD_FREQUENCIES}/{file.split('.')[0]}.json",
+                        "w",
+                        encoding="utf-8",
                     ) as wf:
                         json.dump(
                             as_json,
                             wf,
-                            indent=4,
                             ensure_ascii=False,
                             default=str,
                             allow_nan=False,
                         )
 
     # generate word frequency for all poems
-    if os.path.exists(f"{ALLEKOK_DIR}/all_poems_concatenated"):
-        rprint("working on word frequency for all poems")
-        with open(f"{ALLEKOK_DIR}/all_poems_concatenated", "r", encoding="utf-8") as rf:
+    if os.path.exists(f"{ALLEKOK_DIR}/all_poems_concatenated.txt"):
+        rprint("Gwnwrating word frequency for all poems")
+        with open(
+            f"{ALLEKOK_DIR}/all_poems_concatenated.txt", "r", encoding="utf-8"
+        ) as rf:
             poems = rf.read().split()
 
         # clear words
@@ -99,27 +102,22 @@ def generate_frequencies():
         as_json = get_word_frequency(poems)
 
         with open(f"{ALLEKOK_DIR}/all_poems.json", "w", encoding="utf-8") as wf:
-            json.dump(
-                as_json,
-                wf,
-                indent=4,
-                ensure_ascii=False,
-                default=str,
-                allow_nan=False,
-            )
+            json.dump(as_json, wf, ensure_ascii=False, default=str, allow_nan=False)
 
 
 def generate_wordclouds():
-    if os.path.exists(CONCAT_AS_ONE_FILE):
-        # read all files inside CONCAT_AS_ONE_FILE directory
+    if os.path.exists(POET_DATA_IN_TXT):
+        # read all files inside POET_DATA_IN_TXT directory
         for root, dirs, files in track(
-            os.walk(CONCAT_AS_ONE_FILE), description="Reading files..."
+            os.walk(POET_DATA_IN_TXT), description="Reading files..."
         ):
-            for file in files:
-                rprint(f"working on WordCloud for {file}")
-                poet_dir = f"{WORDCLOUDS}/{file}"
+            for file_item in files:
+                rprint(f"working on WordCloud for {file_item}")
 
-                with open(os.path.join(root, file), "r", encoding="utf-8") as rf:
+                WORDCLOUDS.mkdir(parents=True, exist_ok=True)
+                poet_dir = f"{WORDCLOUDS}/{file_item}"
+
+                with open(os.path.join(root, file_item), "r", encoding="utf-8") as rf:
                     poem = rf.read().split()
 
                 # clear words
@@ -159,13 +157,13 @@ def generate_wordclouds():
 
 
 def generate_wordclouds_for_all_poems():
-    # check ./all_poems_concatenated exists
-    if os.path.exists(f"{ALLEKOK_DIR}/all_poems_concatenated"):
-        rprint("Working on WordCloud for all poems...")
+    # check ./allekok/all_poems_concatenated.txt exists
+    if os.path.exists(f"{ALLEKOK_DIR}/all_poems_concatenated.txt"):
+        rprint("Generating WordCloud for all poems...")
 
-        all_poems_dir = f"{WORDCLOUDS}/all_poems"
-
-        with open(f"{ALLEKOK_DIR}/all_poems_concatenated", "r", encoding="utf-8") as rf:
+        with open(
+            f"{ALLEKOK_DIR}/all_poems_concatenated.txt", "r", encoding="utf-8"
+        ) as rf:
             poems = rf.read().split()
 
         # clear words
@@ -199,18 +197,16 @@ def generate_wordclouds_for_all_poems():
 
 if __name__ == "__main__":
     # check if directories exists, if not create them and run the geneate_frequencies function
-    if not os.path.exists(WORD_FREQUENCIES):
-        os.mkdir(WORD_FREQUENCIES)
-        generate_frequencies()
+    WORD_FREQUENCIES.mkdir(parents=True, exist_ok=True)
+    generate_frequencies()
 
     # check if directories exists, if not create them and run the generate_wordclouds function
-    if not os.path.exists(WORDCLOUDS):
-        os.mkdir(WORDCLOUDS)
-        generate_wordclouds()
+    WORDCLOUDS.mkdir(parents=True, exist_ok=True)
+    generate_wordclouds()
 
     # check if directories exists, if not create them and run the generate_wordclouds_for_all_poems function
-    if not os.path.exists(f"{WORDCLOUDS}/all_poems"):
-        os.mkdir(f"{WORDCLOUDS}/all_poems")
-        generate_wordclouds_for_all_poems()
+    all_poems_dir = WORDCLOUDS / "all_poems"
+    all_poems_dir.mkdir(parents=True, exist_ok=True)
+    generate_wordclouds_for_all_poems()
 
     rprint("Done!")
