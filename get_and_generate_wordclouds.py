@@ -112,7 +112,7 @@ def generate_wordclouds():
             os.walk(POET_DATA_IN_TXT), description="Reading files..."
         ):
             for file_item in files:
-                rprint(f"working on WordCloud for {file_item}")
+                rprint(f"Generating WordCloud for {file_item}")
 
                 WORDCLOUDS.mkdir(parents=True, exist_ok=True)
                 poet_dir = f"{WORDCLOUDS}/{file_item}"
@@ -199,7 +199,7 @@ def generate_wordclouds_for_all_poems():
 if __name__ == "__main__":
     # check if directories exists, if not create them and run the geneate_frequencies function
     WORD_FREQUENCIES.mkdir(parents=True, exist_ok=True)
-    # generate_frequencies()
+    generate_frequencies()
 
     # check if directories exists, if not create them and run the generate_wordclouds function
     WORDCLOUDS.mkdir(parents=True, exist_ok=True)

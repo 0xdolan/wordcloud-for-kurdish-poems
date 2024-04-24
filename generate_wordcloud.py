@@ -33,7 +33,7 @@ MIKHAKFONT_PATH = FONT_DIR / "Mikhak-DS1-Regular.ttf"
 
 def generate_wordcloud(text, filename="wordcloud.png", font=VAZIRMATN_FONT_PATH):
     wc = WordCloud(
-        font_path=font,
+        font_path=str(font),
         width=1600,
         height=800,
         background_color="white",
